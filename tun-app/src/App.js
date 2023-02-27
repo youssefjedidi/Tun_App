@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Switch>
-        <Route path="/" exact element={<HomePage />}/>
+        <Route path="/" exact component ={HomePage}/>
         <Route path="/tourism" component={Tourism} />
         <Route path="/history" component={History} />
         <Route path="/culture" component={Culture} />
