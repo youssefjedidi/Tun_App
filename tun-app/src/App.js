@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Route , Switch}  from 'react-router-dom';
+import {HashRouter, Route , Switch}  from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Tourism from './pages/Tourism';
 import History from './pages/History';
@@ -10,6 +10,7 @@ import TnR from './pages/TnR';
 function App() {
   return (
     <div>
+      <HashRouter>
       <Switch>
         <Route path="/" exact component={HomePage}/>
         <Route path="/tourism" component={Tourism} />
@@ -17,6 +18,7 @@ function App() {
         <Route path="/culture" component={Culture} />
         <Route path="/technology" component={TnR} />
       </Switch>
+      </HashRouter>
     </div>
     /*<Route path="/tourism" component={TourismPage} />
     <Route path="/history" component={HistoryPage} />
