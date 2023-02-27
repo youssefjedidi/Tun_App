@@ -14,7 +14,7 @@ return (
 <div> 
     <TopBar />
     <div className="image-container">
-        <img src="\images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
+        <img src="images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
     </div>
     
     <h1 style={{ color: '#8E4A00' }}> Important historical figures: </h1>
@@ -23,46 +23,46 @@ return (
     title1 = "Ibn Khaldun (1332-1406)"
     subtitle1='Arab historian, philosopher' 
     description1='"a 14th-century Islamic philosopher who basically invented what we would now call the social sciences" Ibn Khaldun was a Tunisian historian and philosopher who is considered one of the greatest scholars of the Middle Ages. He is known for his influential work on the history and sociology of the Arab world, and is considered a pioneer in the field of historiography.'
-    image1="\images\Tunisia\ibn_khaldun.jpg"
+    image1="images\Tunisia\ibn_khaldun.jpg"
 
     title2 = "Ahmad Bey (1805-1855)"
     subtitle2='Tunisian ruler, modernizer' 
     description2='Ahmad Bey was the ruler of Tunis from 1837 to 1855. He is known for modernizing Tunisian society and government, and for promoting education and scientific research. He was responsible for the abolition of slavery in Tunisia in 1846.'
-    image2="\images\Tunisia\Ahmed_I_Bey.jpg"
+    image2="images\Tunisia\Ahmed_I_Bey.jpg"
 
     title3 = "Habib Bourguiba(1903-2000)"
     subtitle3='Tunisian president, modernizer' 
     description3="Habib Bourguiba was the first President of Tunisia and served from 1957 to 1987. He is known for leading the country to independence from France and for implementing social and economic reforms, including the promotion of education and the advancement of women's rights."
-    image3="\images\Tunisia\Habib_Bourguiba.jpg"
+    image3="images\Tunisia\Habib_Bourguiba.jpg"
     />
     <PersonTable
     title1 = "Tahar Haddad (1898-1934)"
     subtitle1='Tunisian writer, nationalist' 
     description1='Tahar Haddad was a Tunisian writer and intellectual who was an important figure in the Tunisian nationalist movement. He is known for his contributions to Tunisian literature and for his advocacy for Tunisian independence.'
-    image1="\images\Tunisia\Tahar_Haddad.jpg"
+    image1="images\Tunisia\Tahar_Haddad.jpg"
 
     title2 = "Tewhida Ben Sheikh(1909-2010)"
     subtitle2='Pioneering Female Tunisian Doctor' 
     description2="Dr. Tewhida Ben Sheikh was a pioneering physician in Tunisia, particularly in the fields of contraception and abortion access. She was the first modern Tunisian woman to become a doctor, and her work has had a lasting impact on women's healthcare in the country."
-    image2="\images\Tunisia\Tawhida_Ben_Cheikh.jpg"
+    image2="images\Tunisia\Tawhida_Ben_Cheikh.jpg"
 
     title3 = "Aboul-Qacem Echebbi (1909–1934)"
     subtitle3='Tunisian poet, nationalist' 
     description3="Aboul-Qacem Echebbi was a Tunisian poet and nationalist who played a significant role in the country's fight for independence from French colonial rule. He is known for his powerful and moving poetry that inspired Tunisians to fight for their freedom and dignity. Echebbi is remembered as a national hero and a symbol of Tunisian resistance."
-    image3="\images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
+    image3="images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
     />
 
     <h1 style={{ color: '#8E4A00' }}> Overview of Tunisia's history: </h1>  
 
     <div className="image-container">
-        <img src="\images\Tunisia\Htime1.png" style={{ width: '100%' }} />
+        <img src="images\Tunisia\Htime1.png" style={{ width: '100%' }} />
     </div>  
     
     <SlidePL
         title="Carthage (814 BC)" 
         subtitle='"The rise of Carthage"' 
         description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
-        image="\images\Tunisia\Hcartage.jpeg" />
+        image="images\Tunisia\Hcartage.jpeg" />
     <SlidePR 
       title="Ez-zitouna University (737 CE)" 
       subtitle='"The oldest university in THE WORLD"' 
@@ -75,7 +75,7 @@ return (
         title="Ottoman empire (1534)" 
         subtitle='"Tunisia under Ottoman rule."' 
         description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
-        image="\images\Tunisia\Hottoman.jpg" />
+        image="images\Tunisia\Hottoman.jpg" />
     <SlidePR 
       title="Independence (1956)" 
       subtitle="''Tunisia's journey to independence''"
@@ -86,13 +86,13 @@ return (
         title="Revolution (2011)" 
         subtitle='"Overthrowing the old regime"' 
         description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
-        image="\images\Tunisia\Hrevolution.png" />
+        image="images\Tunisia\Hrevolution.png" />
 
     
     <ul style={{ marginLeft: '10rem', marginRight: '10rem' }}>
-        <li><img src="\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
+        <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
+        <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
+        <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
 
         <li className='Block'>List Item 1</li>
         <li className='Block'>List Item 2</li>

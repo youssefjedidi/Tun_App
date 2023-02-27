@@ -16,7 +16,7 @@ return (
   <TopBar />
 
     <div className="image-container">
-        <img src="/tun1.png" alt="image" style={{ width: '100%' }} />
+        <img src="tun1.png" alt="image" style={{ width: '100%' }} />
         <p className="text-overlay">Tunisia is a muslim country located in North Africa, on the Mediterranean coast. It is a democratic republic with a diverse economy and a population of around 11 million people. The official language is Arabic, but French is also widely spoken.
         Tunis is the capital city, and it is known for its rich cultural heritage and vibrant atmosphere. 
         Tunisian culture is a mix of Arab, African, and Mediterranean influences, and it is reflected in the country's art, music, literature, and food. Tunisian history is marked by a number of important events and landmarks, including the ancient city of Carthage, the medina (old city) of Sfax, and other important cultural sites.
@@ -33,7 +33,7 @@ return (
         title="History" 
         subtitle='"Explore Tunisian history from ancient civilizations to modern democracy."' 
         description="Tunisia has a long and rich history  dating back to ancient civilizations like the Phoenicians and Romans. The country has experienced periods of independence, colonization, and dictatorship, and is now a democratic republic. Its 11 million population and diverse economy are centered around Tunis, the capital city. Tunisian history is marked by important events and landmarks, like the ancient city of Carthage and the medina of Sfax, as well as revolutions and wars."
-        image="\images\Tunisia\the-amphitheatre-of-el-jem_aerial-view_archeologpl.jpg" 
+        image="images\Tunisia\the-amphitheatre-of-el-jem_aerial-view_archeologpl.jpg" 
         link="history"/>
     <SlidePR 
       title="Culture" 
