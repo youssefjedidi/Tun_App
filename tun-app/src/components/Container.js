@@ -13,7 +13,7 @@ return (
     <h2>{props.title}</h2>
     <p>{props.description}</p>
   </ul>
-  <img src={props.image}></img>
+  <img src={props.image} alt=""></img>
 </div>
 
 );
