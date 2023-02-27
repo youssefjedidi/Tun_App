@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 );*/
 
 root.render(
-  <HashRouter  basename={process.env.youssefjedidi.github.io} >
+  <HashRouter>
     <App />
   </HashRouter>,
 );
