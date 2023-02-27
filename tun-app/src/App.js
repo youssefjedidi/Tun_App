@@ -10,7 +10,7 @@ import TnR from './pages/TnR';
 function App() {
   return (
     <div>
-      <HashRouter>
+      <HashRouter basename={process.env.youssefjedidi.github.io}>
       <Switch>
         <Route path="/" exact component={HomePage}/>
         <Route path="/tourism" component={Tourism} />
