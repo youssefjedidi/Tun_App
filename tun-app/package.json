@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
 
-    "homepage": "https://github.com/youssefjedidi.io/Tun_App/"
+    "homepage": "https://github.com/youssefjedidi/Tun_App/"
   },
   "scripts": {
     "start": "react-scripts start",
