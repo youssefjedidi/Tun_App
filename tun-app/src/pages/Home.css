@@ -110,6 +110,9 @@ font-size: 2vw;
     color: #7D7D7D;
     font-size: 1vw;
     }
+.content ul h2{
+    font-size: 1.5vw;
+    }
 .content ul Button{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
