@@ -7,7 +7,7 @@ div
 {
     background-color:#FBF0D3 ;
     
-    /*width: 100vw;*/
+    /*width: 100vw;*/   
 }   
 
 .text-overlay 
@@ -43,7 +43,7 @@ div
 
     position: relative;
     max-width: 70vw;
-    max-height: 15rem;
+    /*max-height: 15rem;*/
     display: flex;
     list-style: none;
 }
