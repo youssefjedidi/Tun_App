@@ -25,7 +25,7 @@ div
     align-items: left;
     justify-content: center;
     text-align: justify;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 
@@ -68,10 +68,10 @@ div
 }
 .intro-container ul p{
     color: #312f2f;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 .intro-container ul h2{
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 /*------------- content ---------------------- */
@@ -89,7 +89,7 @@ div
 
     vertical-align: middle;
 
-    /*height:50vh;*/
+    height:50vh;
     width: 50vw;
     flex-basis:50%;
     padding: 3vw;
@@ -109,14 +109,14 @@ div
 .content ul a{
 color: #8E4A00;
 font-weight: 600;
-font-size: 2vw;
+font-size: 2.5vw;
 }
 .content ul p{
     color: #7D7D7D;
-    font-size: 1vw;
+    font-size: 1.5vw;
     }
 .content ul h2{
-    font-size: 1.5vw;
+    font-size: 2vw;
     }
 .content ul Button{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
