@@ -17,11 +17,13 @@ return (
 
     <div className="image-container">
         <img src="tun1.png" alt="image" style={{ width: '100%' }} />
-        <p className="text-overlay">Tunisia is a muslim country located in North Africa, on the Mediterranean coast. It is a democratic republic with a diverse economy and a population of around 11 million people. The official language is Arabic, but French is also widely spoken.
-        Tunis is the capital city, and it is known for its rich cultural heritage and vibrant atmosphere. 
-        Tunisian culture is a mix of Arab, African, and Mediterranean influences, and it is reflected in the country's art, music, literature, and food. Tunisian history is marked by a number of important events and landmarks, including the ancient city of Carthage, the medina (old city) of Sfax, and other important cultural sites.
-        Tunisia is a fascinating and dynamic country with a lot to offer, and it is well worth a visit for anyone interested in experiencing its rich culture and history.
-        </p>
+        <div className="text-overlay">
+          <p >Tunisia is a muslim country located in North Africa, on the Mediterranean coast. It is a democratic republic with a diverse economy and a population of around 11 million people. The official language is Arabic, but French is also widely spoken.
+          Tunis is the capital city, and it is known for its rich cultural heritage and vibrant atmosphere. 
+          Tunisian culture is a mix of Arab, African, and Mediterranean influences, and it is reflected in the country's art, music, literature, and food. Tunisian history is marked by a number of important events and landmarks, including the ancient city of Carthage, the medina (old city) of Sfax, and other important cultural sites.
+          Tunisia is a fascinating and dynamic country with a lot to offer, and it is well worth a visit for anyone interested in experiencing its rich culture and history.
+          </p>
+        </div>
     </div>
 
     <Container
