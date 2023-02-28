@@ -92,7 +92,7 @@ div
     /*vertical-align: middle;*/
     object-fit: cover;
 
-    
+    aspect-ratio: 2.5 / 1;
     width: 50vw;
     /*max-height:50vh;*/
     
@@ -106,9 +106,9 @@ div
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    aspect-ratio: 2.5 / 1;
+    width: 50vw;
     text-align: justify;
-    max-height:50vh;
+    /*max-height:50vh;*/
     padding: 5vw;
 }
 .content ul a{
