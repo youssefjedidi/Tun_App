@@ -88,10 +88,11 @@ div
     align-items: center;
 
     vertical-align: middle;
+    object-fit: cover;
 
-    /*height:50vh;*/
+    height:50vh;
     width: 50vw;
-    /*flex-basis:50%;*/
+    flex-basis:40%;
     padding: 3vw;
 }
 .content ul{
