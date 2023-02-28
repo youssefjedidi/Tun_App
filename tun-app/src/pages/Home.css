@@ -6,6 +6,8 @@
 div
 {
     background-color:#FBF0D3 ;
+    
+    width: 100vw;
 }   
 
 .text-overlay 
@@ -39,8 +41,8 @@ div
     /*margin-top: 2rem;*/
 
     position: relative;
-    width: 70rem;
-    height: 15rem;
+    width: 70vw;
+    /*height: 15rem;*/
     display: flex;
     list-style: none;
 }
@@ -80,7 +82,7 @@ div
     align-items: center;
 
     height:50vh;
-    width:90vh;
+    width:50vw;
     padding: 3%;
 }
 .content ul{
