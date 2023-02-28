@@ -81,8 +81,8 @@ div
     margin: 0;
 }
 .content img{
-    /*display:block;
-    flex-direction: column;
+    display:initial;
+    /*flex-direction: column;
 
     justify-content: center;
     align-items: center;*/
