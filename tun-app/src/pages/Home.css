@@ -92,8 +92,9 @@ div
     /*vertical-align: middle;*/
     object-fit: cover;
 
-    height:50vh;
+    
     width: 50vw;
+    max-height:50vh;
     
     padding: 3vw;
 }
