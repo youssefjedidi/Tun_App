@@ -71,19 +71,21 @@ div
 
 /*------------- content ---------------------- */
 .content{
-    display: flex;
+    display:flex;
     list-style: none;
     margin: 0;
 }
 .content img{
-    display:block;
+    /*display:block;*/
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
 
+    vertical-align: middle;
+
     height:50vh;
-    width:50vw;
+    flex-basis:50vw;
     padding: 3vw;
 }
 .content ul{
