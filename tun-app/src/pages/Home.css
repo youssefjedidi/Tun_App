@@ -86,6 +86,8 @@ div
 
     justify-content: center;
     align-items: center;
+    justify-self: center;
+    align-self: center;
 
     /*vertical-align: middle;*/
     object-fit: cover;
