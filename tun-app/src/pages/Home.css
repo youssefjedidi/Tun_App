@@ -81,11 +81,11 @@ div
     margin: 0;
 }
 .content img{
-    display:block;
+    /*display:block;
     flex-direction: column;
 
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     justify-self: center;
     align-self: center;
 
