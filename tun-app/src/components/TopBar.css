@@ -13,11 +13,11 @@
   .top-bar a {
 
     display: inline-block;
-    font-size: 1rem;
+    font-size: 2vh;
     font-weight: 600;
     color: #333;
     text-decoration: none;
-    padding: 1.5rem;
+    padding: 0.1vw;
   }
   
   .top-bar img { 
