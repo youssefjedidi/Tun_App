@@ -44,12 +44,16 @@ div
     position: relative;
     max-width: 70vw;
     /*max-height: 15rem;*/
+
     display: flex;
     list-style: none;
 }
 .intro-container img{
     border-radius: 100px;
     /*max-width:10rem;*/
+    justify-self: center;
+    align-self: center;
+    
     max-height: 40vh;
     aspect-ratio: 1.8 / 2.5;
 }
