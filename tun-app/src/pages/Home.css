@@ -81,18 +81,18 @@ div
     margin: 0;
 }
 .content img{
-    /*display:block;*/
+    display:block;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
 
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     object-fit: cover;
 
     height:50vh;
     width: 50vw;
-    flex-basis:40%;
+    
     padding: 3vw;
 }
 .content ul{
