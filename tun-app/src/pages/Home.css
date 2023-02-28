@@ -77,11 +77,11 @@ div
 /*------------- content ---------------------- */
 .content{
     display:flex;
-    list-style: none;
-    margin: 0;
+    /*list-style: none;*/
+    margin: 2vh;
 }
 .content img{
-    display:initial;
+    /*display:;
     /*flex-direction: column;
 
     justify-content: center;
