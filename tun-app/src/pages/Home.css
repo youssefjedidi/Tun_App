@@ -25,6 +25,7 @@ div
     align-items: left;
     justify-content: center;
     text-align: justify;
+    font-size: 1vw;
 }
 
 
@@ -125,6 +126,7 @@ font-size: 2vw;
     border-color: none;
     text-decoration: none;
 }
+
 /* ----------------Person------------------------------------ */
 
 .Person td
