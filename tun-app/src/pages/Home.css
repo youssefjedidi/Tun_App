@@ -76,7 +76,7 @@ div
     margin: 0;
 }
 .content img{
-    /*display: flex;*/
+    display:block;
     flex-direction: column;
 
     justify-content: center;
@@ -84,7 +84,7 @@ div
 
     height:50vh;
     width:50vw;
-    padding: 3%;
+    padding: 3vw;
 }
 .content ul{
     display: flex;
@@ -96,7 +96,7 @@ div
 
     text-align: justify;
     max-height:50vh;
-    padding: 5%;
+    padding: 5vw;
 }
 .content ul a{
 color: #8E4A00;
