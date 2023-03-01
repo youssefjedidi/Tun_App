@@ -3,6 +3,8 @@
     display:flex;
     /*left: 10vw;
     right: 10vw;*/
+    align-self: center;
+    align-content: center;
     justify-content: center;
     /*justify-items: right;*/
     position:relative;
