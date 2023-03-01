@@ -90,7 +90,11 @@ return (
         description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
         image="images\Tunisia\Hrevolution.png" />
 
-    
+    <ImageCard 
+    image="images\Tunisia\Hindependence.jpg"
+    title="hhh"
+    description="te5dem!"/>
+
     <ul style={{ marginLeft: '10rem', marginRight: '10rem' }}>
         <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
@@ -101,10 +105,7 @@ return (
         <li className='Block'>List Item 3</li>
     </ul>
 
-    <ImageCard 
-    image={"images\Tunisia\Hindependence.jpg"}
-    title="hhh"
-    description={"te5dem!"}/>
+    
 
 </div>  
 
