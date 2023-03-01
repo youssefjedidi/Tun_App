@@ -23,7 +23,7 @@ const ImageCard = ({ image, title, description }) => {
       <img
         src={image}
         alt={title}
-        className={`image ${expanded ? 'expanded' : ''}`}
+        className={`image ${hovered ? 'expanded' : ''}`}
       />
       <div className={`overlay ${hovered ? 'hovered' : ''}`}>
         <h3>{title}</h3>
