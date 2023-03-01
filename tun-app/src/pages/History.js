@@ -91,7 +91,7 @@ return (
         image="images\Tunisia\Hrevolution.png" />
 
     <ImageCard 
-    image={"images\Tunisia\Hrevolution.png"}
+    image="images\Tunisia\Hrevolution.png"
     title={"hhh"}
     description={"te5dem!"}/>
 
