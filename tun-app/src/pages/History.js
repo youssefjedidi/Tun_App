@@ -16,7 +16,7 @@ return (
 <div> 
     <TopBar />
     <div className="image-container">
-        <img src="images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
+        <img src="Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
     </div>
     
     <h1 style={{ color: '#8E4A00' }}> Important historical figures: </h1>
@@ -77,12 +77,12 @@ return (
         title="Ottoman empire (1534)" 
         subtitle='"Tunisia under Ottoman rule."' 
         description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
-        image="images\Tunisia\Hottoman.jpg" />
+        image=".\images\Tunisia\Hottoman.jpg" />
     <SlidePR 
       title="Independence (1956)" 
       subtitle="''Tunisia's journey to independence''"
       description="Tunisia gained independence from France in 1956, after over 70 years of colonial rule. Independence was followed by a period of political and economic development, as the country worked to establish itself as a sovereign nation."
-      image="images\Tunisia\Hindependence.jpg"/>
+      image="./images/Tunisia/Hindependence.jpg"/>
 
     <SlidePL
         title="Revolution (2011)" 
@@ -91,14 +91,14 @@ return (
         image="images\Tunisia\Hrevolution.png" />
 
     <ImageCard 
-    image="images\Tunisia\Hrevolution.png"
+    image=".\images\Tunisia\Hrevolution.png"
     title={"hhh"}
     description={"te5dem!"}/>
 
     <ul style={{ marginLeft: '10rem', marginRight: '10rem' }}>
         <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
+        <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} alt='' /></li>
 
         <li className='Block'>List Item 1</li>
         <li className='Block'>List Item 2</li>
