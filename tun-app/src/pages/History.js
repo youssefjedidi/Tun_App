@@ -91,9 +91,9 @@ return (
         image="images\Tunisia\Hrevolution.png" />
 
     <ImageCard 
-    image="images\Tunisia\Hindependence.jpg"
-    title="hhh"
-    description="te5dem!"/>
+    image={"images\Tunisia\Hindependence.jpg"}
+    title={"hhh"}
+    description={"te5dem!"}/>
 
     <ul style={{ marginLeft: '10rem', marginRight: '10rem' }}>
         <li><img src="images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
