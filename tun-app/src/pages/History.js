@@ -17,10 +17,10 @@ return (
 <div> 
     <TopBar />
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
+        <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '80%', paddingLeft: "10vw"}} />
     </div>
     
-    <h1 style={{ color: '#8E4A00' }}> Important historical figures: </h1>
+    <h1 style={{ color: '#8E4A00', paddingLeft: "3vw" }}> Important historical figures: </h1>
 
     <PersonTable
     title1 = "Ibn Khaldun (1332-1406)"
@@ -120,7 +120,7 @@ return (
         description={"a well-preserved Roman city in Siliana"}/>
     </div>
     
-    
+
     <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"" }}>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
