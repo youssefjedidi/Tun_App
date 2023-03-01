@@ -20,7 +20,11 @@ const ImageCard = ({ image, title, description }) => {
       onMouseLeave={handleHover}
       onClick={handleClick}
     >
-      <div className="image" style={{ backgroundImage: `url(${image})` }} />
+      <img
+        src={image}
+        alt={title}
+        className={`image ${expanded ? 'expanded' : ''}`}
+      />
       <div className={`overlay ${hovered ? 'hovered' : ''}`}>
         <h3>{title}</h3>
         <p>{description}</p>
