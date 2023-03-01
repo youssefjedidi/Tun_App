@@ -146,7 +146,7 @@ font-size: 2vw;
 
 .Person td
 {
-    padding: 5vw;
+    padding: 3vw;
     
     /*margin: 2rem;
     grid-template-columns: repeat(3, 30%);*/
@@ -172,19 +172,23 @@ font-size: 2vw;
     margin-right: auto;
     
     object-fit: cover;
-    width: 7rem; 
-    height: 7rem;
+    width: 8vw; 
+    height: 8vw;
     border-radius: 100px;
     border-color: none;
 }
-
+.Person p{
+    text-align: justify;
+}
 .Person
 {
-    text-align: justify;
+    text-align: center;
+    text-justify:distribute-all-lines;  
+    font-size: 1.2vw;
     margin: 3rem;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 /* ----------------Block------------------------------------ */
