@@ -20,7 +20,7 @@ return (
         <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '100%'}} />
     </div>
     
-    <h1 style={{ color: '#8E4A00', paddingLeft: "3vw" }}> Important historical figures: </h1>
+    <h1 className='title'> Important historical figures: </h1>
 
     <PersonTable
     title1 = "Ibn Khaldun (1332-1406)"
@@ -55,7 +55,7 @@ return (
     image3="\Tun_App\images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
     />
 
-    <h1 style={{ color: '#8E4A00', paddingLeft: "3vw" }}> Overview of Tunisia's history: </h1>  
+    <h1 className='title'> Overview of Tunisia's history: </h1>  
 
     <div className="image-container">
         <img src="\Tun_App\images\Tunisia\Htime1.png" style={{ width: '90vw', paddingLeft: "5vw" }} />
@@ -91,7 +91,7 @@ return (
         description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
         image="\Tun_App\images\Tunisia\Hrevolution.png" />
 
-    <h1 style={{ color: '#8E4A00', paddingLeft: "3vw" }}> Major historical sites and landmarks: </h1>
+    <h1 className='title'> Major historical sites and landmarks: </h1>
 
     <div style={{display:"flex", justifyContent: "center", width: "80vw", marginLeft:"10vw" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
@@ -121,7 +121,7 @@ return (
     </div>
     
 
-    <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"" }}>
+    <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"none" }}>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} alt='' /></li>

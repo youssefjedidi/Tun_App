@@ -3,7 +3,12 @@
     position: relative;
 
 }
-
+.title
+{
+    color: #8E4A00;
+    padding-left: 3vw;
+    
+}
 div
 {
     background-color:#FBF0D3 ;
@@ -37,7 +42,7 @@ div
     border-color: black;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-    padding: 10vh;
+    padding: 3vw;
     
     margin: auto;
     /*margin-top: 2rem;*/
@@ -55,7 +60,7 @@ div
     justify-self: center;
     align-self: center;
 
-    max-height: 40vh;
+    max-height: 20vw;
     aspect-ratio: 1.8 / 2.5;
 }
 .intro-container ul{
@@ -68,7 +73,7 @@ div
 
     text-align: justify;
     max-width: 60vw;
-    padding: 5%;
+    padding: 1vw;
     margin: 3vw;
 }
 .intro-container ul p{
