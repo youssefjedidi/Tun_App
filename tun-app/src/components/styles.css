@@ -1,0 +1,27 @@
+.image-card {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .image {
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+    height: auto;
+  }
+  
+  .image.expanded {
+    width: 250px;
+  }
+  
+  .details {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  

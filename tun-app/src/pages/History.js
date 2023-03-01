@@ -4,6 +4,8 @@ import TopBar from '../components/TopBar';
 import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
 import PersonTable from '../components/PersonTable';
+import ImageCard from '../components/ImageCard';
+
 
 import './Home.css';
 import 'animate.css';
@@ -98,6 +100,11 @@ return (
         <li className='Block'>List Item 2</li>
         <li className='Block'>List Item 3</li>
     </ul>
+
+    <ImageCard 
+    image={"images\Tunisia\Hindependence.jpg"}
+    title="hhh"
+    description={"te5dem!"}/>
 
 </div>  
 
