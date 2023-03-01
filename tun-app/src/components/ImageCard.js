@@ -1,9 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import './styles.css';
 
 const ImageCard = ({ image, title, description }) => {
   const [hovered, setHovered] = useState(false);
   const [clicked, setClicked] = useState(false);
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (imageRef.current && !imageRef.current.contains(event.target)) {
+        setClicked(false);
+      }
+    };
+    
+    document.addEventListener('click', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, [imageRef]);   
 
   const handleHover = () => {
     setHovered(!hovered);
@@ -19,18 +33,19 @@ const ImageCard = ({ image, title, description }) => {
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}
       onClick={handleClick}
+      ref={imageRef}
     >
       <img
         src={image}
         alt={title}
         className={`image ${hovered ? 'expanded' : ''}`}
       />
-      <div className={`overlay ${hovered ? 'hovered' : ''}`}>
+      <div className={`overlay ${clicked ? 'clicked' : ''}`}>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
   );
-};
+};  
 
 export default ImageCard;
