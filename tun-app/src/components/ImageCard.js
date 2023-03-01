@@ -7,13 +7,16 @@ const ImageCard = ({ image, title, description }) => {
   const handleExpand = () => {
     setExpanded(!expanded);
   };
+  const handleExpandCard = () => {
+    setExpanded(!expanded);
+  };
 
   return (
     <div
       className="image-card"
       onMouseEnter={handleExpand}
       onMouseLeave={handleExpand}
-      onClick={handleExpand}
+      onClick={handleExpandCard}
     >
       <img
         src={image}
