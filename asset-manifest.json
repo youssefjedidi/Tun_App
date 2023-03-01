@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Tun_App/static/css/main.9555e736.css",
-    "main.js": "/Tun_App/static/js/main.182525a4.js",
+    "main.js": "/Tun_App/static/js/main.c43e9ed3.js",
     "static/js/787.31b957ac.chunk.js": "/Tun_App/static/js/787.31b957ac.chunk.js",
     "static/media/logo.svg": "/Tun_App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Tun_App/index.html",
     "main.9555e736.css.map": "/Tun_App/static/css/main.9555e736.css.map",
-    "main.182525a4.js.map": "/Tun_App/static/js/main.182525a4.js.map",
+    "main.c43e9ed3.js.map": "/Tun_App/static/js/main.c43e9ed3.js.map",
     "787.31b957ac.chunk.js.map": "/Tun_App/static/js/787.31b957ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9555e736.css",
-    "static/js/main.182525a4.js"
+    "static/js/main.c43e9ed3.js"
   ]
 }
