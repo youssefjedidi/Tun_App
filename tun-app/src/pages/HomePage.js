@@ -11,6 +11,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';  
 
 function HomePage() {
+  document.body.style.backgroundColor = "#FBF0D3"
 return (
 <div>
   <TopBar />
