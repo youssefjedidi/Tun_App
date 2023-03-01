@@ -17,7 +17,7 @@ return (
 <div> 
     <TopBar />
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '80%', paddingLeft: "10vw"}} />
+        <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '100vw'}} />
     </div>
     
     <h1 style={{ color: '#8E4A00', paddingLeft: "3vw" }}> Important historical figures: </h1>
@@ -58,7 +58,7 @@ return (
     <h1 style={{ color: '#8E4A00', paddingLeft: "3vw" }}> Overview of Tunisia's history: </h1>  
 
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\Htime1.png" style={{ width: '100%' }} />
+        <img src="\Tun_App\images\Tunisia\Htime1.png" style={{ width: '90vw', paddingLeft: "5vw" }} />
     </div>  
     
     <SlidePL
