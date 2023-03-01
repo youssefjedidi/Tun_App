@@ -1,6 +1,6 @@
 .image-card {
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     grid-column-end: span 2;
     grid-row-end: span 2;
     transition: all 0.5s ease-in-out;
