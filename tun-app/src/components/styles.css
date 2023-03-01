@@ -1,28 +1,41 @@
 .image-card {
     position: relative;
-    display: inline-block;
-    margin-right: 10px;
-    width: 150px;
+    overflow: hidden;
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .image-card.clicked {
+    transform: scale(1.2);
+    z-index: 1;
   }
   
   .image {
-    transition: all 0.3s ease-in-out;
-    width: 200px;
-    height: auto;
-  }
-  
-  .image.expanded {
-    width: 250px;
-  }
-  
-  .details {
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
     width: 100%;
-    background-color: white;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(100%);
+  }
+  
+  .overlay.hovered {
+    transform: translateY(0%);
   }
   
