@@ -16,7 +16,7 @@ return (
 <div> 
     <TopBar />
     <div className="image-container">
-        <img src="images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
+        <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '100%' }} />
     </div>
     
     <h1 style={{ color: '#8E4A00' }}> Important historical figures: </h1>
