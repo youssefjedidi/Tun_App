@@ -66,7 +66,7 @@
     /*display: block;
     margin-left: auto ;
     margin-right: auto;*/
-    
+    object-fit: cover;
     transition: all 0.3s ease-in-out;
     width: 70vw;
     height: 55vh;
@@ -76,6 +76,7 @@
   .image.expanded {
     /*width: 80vw;
     height: 50vh;*/
+    object-fit: cover;
     transform: scale(1.5);
   }
   

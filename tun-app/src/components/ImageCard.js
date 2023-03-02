@@ -19,8 +19,11 @@ const ImageCard = ({ image, title, description }) => {
     };
   }, [imageRef]);   
 
-  const handleHover = () => {
-    setHovered(!hovered);
+  const handleHoverF = () => {
+    setHovered(false);
+  };
+  const handleHoverT = () => {
+    setHovered(true);
   };
 
   const handleClick = () => {
@@ -30,8 +33,8 @@ const ImageCard = ({ image, title, description }) => {
   return (
     <div
       className={`image-card ${clicked ? 'clicked' : ''}`}
-      onMouseEnter={handleHover}
-      onMouseLeave={handleHover}
+      onMouseEnter={handleHoverT}
+      onMouseLeave={handleHoverF}
       onClick={handleClick}
       ref={imageRef}
     >
