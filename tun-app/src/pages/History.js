@@ -12,7 +12,6 @@ import './Home.css';
 import TrackVisibility from 'react-on-screen';  
 
 function History() {
-
     document.body.style.backgroundColor = "#FBF0D3"
 return (
 <div> 
@@ -94,35 +93,41 @@ return (
 
     <h1 className='title'> Major historical sites and landmarks: </h1>
 
-    <div style={{display:"flex", justifyContent: "center", width: "80vw", marginLeft:"10vw" , marginTop:"5vh", marginBottom:"5vh"}}>
+    <div style={{display:"flex", justifyContent: "center", width: "80vw", height:"60vh", marginLeft:"10vw" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
         image="\Tun_App\images\Tunisia\Mosque-of-Kairouan.jpg"
         title={"The Kairouan Mosque"}
+        Height={"40vh"}
         description={"a mosque and UNESCO World Heritage Site in Kairouan"}/>
         <ImageCard 
         image="\Tun_App\images\Tunisia\jam.jpg"
         title={"El Djem Amphitheater"}
+        Height={"48vh"}
         description={"a Roman amphitheater in El Djem"}/>
         <ImageCard 
         image="\Tun_App\images\Tunisia\Carthage-788x537.png"
         title={"Carthage"}
+        Height={"50vh"}
         description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
         <ImageCard 
         image="\Tun_App\images\Tunisia\bardo-museum.jpg"
         title={"The Bardo Museum"}
+        Height={"48vh"}
         description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
-        <ImageCard 
+        <ImageCard  
         image="\Tun_App\images\Tunisia\bulla-regia.jpg"
         title={"The Bulla Regia"}
+        Height={"45vh"}
         description={"a Roman archaeological site in Jendouba"}/>
         <ImageCard 
         image="\Tun_App\images\Tunisia\dougga_tunisia.jpg"
         title={"The Dougga Archaeological Site"}
+        Height={"40vh"}
         description={"a well-preserved Roman city in Siliana"}/>
     </div>
     
 
-    <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"none" }}>
+    <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"" }}>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
         <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} alt='' /></li>
