@@ -106,8 +106,8 @@ return (
 
     <h1 className='title'> Religion, Literature and language: </h1>
     <SlidePR 
-      title="Ez-zitouna University (737 CE)" 
       
+      subtitle='"Tunisian Heritage: From Ancient Times to the Present Day"'
       description="Tunisia is a country with a rich and diverse cultural heritage that reflects its long history of interactions with different civilizations and peoples.
       The official language of Tunisia is Arabic, which is also the language of Quraan, islam is the dominant religion in the country. 
       According to the 2014 constitution, Tunisia is a free and democratic republic that recognizes Islam as its state religion, but also guarantees freedom of conscience and belief for all citizens.
@@ -116,7 +116,7 @@ return (
 
     <SlidePL
         
-        subtitle='"Tunisia under Ottoman rule."' 
+        subtitle='"Tunisian Literature: A Reflection of the Country’s Past and Present or A Rich and Diverse Legacy"' 
         description="Tunisia has a rich literary tradition that spans centuries.
          The country has produced many notable writers and poets who have contributed to the Arabic literary canon.
          Tunisian literature often reflects the country’s history and cultural heritage, with themes such as identity, nationalism, and social justice being common. 
