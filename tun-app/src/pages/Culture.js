@@ -107,16 +107,20 @@ return (
     <h1 className='title'> Religion, Literature and language: </h1>
     <SlidePR 
       title="Ez-zitouna University (737 CE)" 
-      subtitle='"The oldest university in THE WORLD"' 
-      description="Ez-zitouna University, also known as the University of Ez-Zitouna, is the oldest university in THE WORLD in continuous operation.
-      It was founded in the 8th century CE and has played an important role in Tunisian education and intellectual life. The university is known for its Islamic studies programs and has educated many prominent scholars and religious leaders over the years.
-      Despite the religion's dominance, in Madrasas students could learn about science, philosophy, mathematics, art, and many other subjects."
+      
+      description="Tunisia is a country with a rich and diverse cultural heritage that reflects its long history of interactions with different civilizations and peoples.
+      The official language of Tunisia is Arabic, which is also the language of Quraan, islam is the dominant religion in the country. 
+      According to the 2014 constitution, Tunisia is a free and democratic republic that recognizes Islam as its state religion, but also guarantees freedom of conscience and belief for all citizens.
+      Tunisia also has a distinguished literary tradition that spans from ancient times to the present day, producing renowned poets, writers, scholars and thinkers who have influenced Arabic literature and culture as well as world literature."
       image="\Tun_App\images\Tunisia\Ez_Zitouna-mosque.jpg"/>
 
     <SlidePL
-        title="Ottoman empire (1534)" 
+        
         subtitle='"Tunisia under Ottoman rule."' 
-        description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
+        description="Tunisia has a rich literary tradition that spans centuries.
+         The country has produced many notable writers and poets who have contributed to the Arabic literary canon.
+         Tunisian literature often reflects the country’s history and cultural heritage, with themes such as identity, nationalism, and social justice being common. 
+         In addition to Arabic, French is also widely used in Tunisian literature due to the country’s history as a French protectorate."
         image="\Tun_App\images\Tunisia\CuktureBab.jpg" />
 
     <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"none" }}>

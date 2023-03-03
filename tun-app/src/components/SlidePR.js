@@ -6,10 +6,13 @@ import TrackVisibility from 'react-on-screen';
 */
 import {Link} from 'react-router-dom';
 
-function SlidePR(props) {
+
+/*const element = document.querySelector('.content');
+element.classList.add('animate__animated', 'animate__bounceOutLeft');*/
+function SlidePR(props) {  
 return (
 
-  <div className="content">
+  <div className="content" >
   <ul>
     <a>{props.title}</a>
     <h2>{props.subtitle}</h2>

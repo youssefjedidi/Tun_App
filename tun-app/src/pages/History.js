@@ -8,10 +8,11 @@ import ImageCard from '../components/ImageCard';
 
 
 import './Home.css';
-import 'animate.css';
+
 import TrackVisibility from 'react-on-screen';  
 
 function History() {
+
     document.body.style.backgroundColor = "#FBF0D3"
 return (
 <div> 
