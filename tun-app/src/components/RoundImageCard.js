@@ -1,10 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
-import styles from'./ImageCard.module.css';
+import styles from'./RoundImageCard.module.css';
 
-const ImageCard = ({ image, title, description, Height}) => {
+const RoundImageCard = ({ image, title, description, Height}) => {
   const [hovered, setHovered] = useState(false);
   const [clicked, setClicked] = useState(false);
   const imageRef = useRef(null);
+  
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -29,6 +30,7 @@ const ImageCard = ({ image, title, description, Height}) => {
   const handleClick = () => {
     setClicked(!clicked);
   };
+  const image_cardC = clicked ? styles.clicked : '';
   return ( 
     
     <div
@@ -36,7 +38,7 @@ const ImageCard = ({ image, title, description, Height}) => {
       className={`${styles.image_card} ${clicked ? styles.clicked : ''}`}
       onMouseEnter={handleHoverT}
       onMouseLeave={handleHoverF}
-      onClick={handleClick}
+      onClick={handleClick} 
       ref={imageRef}
     >
       
@@ -55,4 +57,4 @@ const ImageCard = ({ image, title, description, Height}) => {
   );
 };  
 
-export default ImageCard;
+export default RoundImageCard;

@@ -4,7 +4,7 @@ import TopBar from '../components/TopBar';
 import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
 import PersonTable from '../components/PersonTable';
-import ImageCard from '../components/ImageCard';
+import RoundImageCard from '../components/RoundImageCard';
 
 
 import './Home.css';
@@ -21,6 +21,40 @@ return (
     </div>
     
     <h1 className='title'> Major tourist attractions: </h1>
+    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"27vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\Mosque-of-Kairouan.jpg"
+        title={"The Kairouan Mosque"}
+        Height={""}
+        description={"a mosque and UNESCO World Heritage Site in Kairouan"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\Ras_Rmall_Island_Djerba_Houmt_Souk_Tunisia.jpg"
+        title={"El Djem Amphitheater"}
+        Height={""}
+        description={"a Roman amphitheater in El Djem"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\sidi_bousaid.jpg"
+        title={"Carthage"}
+        Height={""}
+        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\bardo-museum.jpg"
+        title={"The Bardo Museum"}
+        Height={""}
+        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+        <RoundImageCard  
+        image="\Tun_App\images\Tunisia\Chott-El-Jerid-Star-Wars-Film-Sets-in-Tunisia.jpg"
+        title={"The Bulla Regia"}
+        Height={""}
+        description={"a Roman archaeological site in Jendouba"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\dougga_tunisia.jpg"
+        title={"The Dougga Archaeological Site"}
+        Height={""}
+        description={"a well-preserved Roman city in Siliana"}/>
+    </div>
+
+    <h1 className='title'> Major historical sites and landmarks: </h1>
 
     <PersonTable
     title1 = "Ibn Khaldun (1332-1406)"
@@ -90,54 +124,6 @@ return (
         subtitle='"Overthrowing the old regime"' 
         description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
         image="\Tun_App\images\Tunisia\Hrevolution.png" />
-
-    <h1 className='title'> Major historical sites and landmarks: </h1>
-
-    <div style={{display:"flex", justifyContent: "center", width: "80vw", height:"60vh", marginLeft:"10vw" , marginTop:"5vh", marginBottom:"5vh"}}>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\Mosque-of-Kairouan.jpg"
-        title={"The Kairouan Mosque"}
-        Height={"40vh"}
-        description={"a mosque and UNESCO World Heritage Site in Kairouan"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\jam.jpg"
-        title={"El Djem Amphitheater"}
-        Height={"48vh"}
-        description={"a Roman amphitheater in El Djem"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\Carthage-788x537.png"
-        title={"Carthage"}
-        Height={"50vh"}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\bardo-museum.jpg"
-        title={"The Bardo Museum"}
-        Height={"48vh"}
-        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
-        <ImageCard  
-        image="\Tun_App\images\Tunisia\bulla-regia.jpg"
-        title={"The Bulla Regia"}
-        Height={"45vh"}
-        description={"a Roman archaeological site in Jendouba"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\dougga_tunisia.jpg"
-        title={"The Dougga Archaeological Site"}
-        Height={"40vh"}
-        description={"a well-preserved Roman city in Siliana"}/>
-    </div>
-    
-
-    <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"" }}>
-        <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} alt='' /></li>
-
-        <li className='Block'>List Item 1</li>
-        <li className='Block'>List Item 2</li>
-        <li className='Block'>List Item 3</li>
-    </ul>
-
-    
 
 </div>  
 

@@ -1,0 +1,74 @@
+
+.image_card {
+    float:left;
+    display:flex;
+
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    /*justify-items: center;
+    align-items: center;*/
+
+    position:relative;
+    overflow: hidden;
+    margin: 1vw;
+    
+    border-radius: 300px;
+    width: 13vw;
+    height: 13vw;
+    transition: all 0.5s ease-in-out;
+    aspect-ratio: 1 / 1;
+  }
+  
+  .image_card.clicked {
+
+    width: 20vw;
+    height: 20vw;
+    aspect-ratio: 1 / 1;
+  }
+  
+  
+  .overlay {
+    display:flex;
+    position: absolute;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    text-align: center;
+    overflow-wrap: normal;
+    
+    
+    border-radius: 300px;
+
+    height: 25vw;
+    
+    padding-left: 1vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    transition: all 0.8s ease-in-out;
+
+    transform: translateX(-100%);
+  }
+
+  .overlay.clicked {
+    transform: translateX(0%);
+  }
+
+  .image {
+
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    width: 20vw ;
+    height: 20vw;
+  }
+  
+  .image.expanded {
+
+    object-fit: cover;
+    transform: scale(1.3);
+  }
+  
+  
