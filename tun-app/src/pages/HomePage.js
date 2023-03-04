@@ -42,10 +42,25 @@ return (
       image="\Tun_App\images\Tunisia\3431090275_586a6346a3_b.jpg"
       link="culture"/>
     
+    <ul>
+        <div style={{display:"flex", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"1vh", marginBottom:"0vh"}}>
+        <img className="Block_image" src="\Tun_App\images\Tunisia\djerba_tunisia.jpg" />
+        <img className="Block_image" src="\Tun_App\images\Tunisia\douz.jpg" />
+        <img className="Block_image" src="\Tun_App\images\Tunisia\El_Feidja_National_Park_Tunisia.png" />
+        </div>
+        <div style={{display:"flex", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"0vh", marginBottom:"1vh"}}>
+        <li className='Block'><a>Djerba Island, Tunisia</a>List Item 1</li>
+        <li className='Block'>List Item 2</li>
+        <li className='Block'>List Item 3</li>
+        </div>
+    </ul>
+
+    
     <Container
     title="We look forward to welcoming you to Tunisia in the future"
     description= "Thank you for visiting our website and learning more about Tunisia. From its vibrant culture and rich history to its stunning landscapes and diverse communities, this country is truly special. We hope that our website has provided you with a glimpse into Tunisian culture and history, and that you have gained a greater appreciation for all that this dynamic country has to offer. Whether you are planning a visit or simply looking to learn more, we hope that our website has been a helpful and enjoyable resource for you. Thank you again for visiting, and we hope that you will continue to discover the many wonders of Tunisia."
     image='\Tun_App\images\Tunisia\tnnn.png' />
+    
 </div>  
 );
 }

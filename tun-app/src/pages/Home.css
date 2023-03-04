@@ -205,6 +205,9 @@ font-size: 2vw;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     padding: 2rem;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
     
     margin: 2rem;
     /*margin-top: 2rem;*/
@@ -212,10 +215,35 @@ font-size: 2vw;
     grid-template-columns: repeat(3, 30%);
 
     display: inline-block;
-
+    
     position: relative;
-    width: 15rem;
-    height: 15rem;
+    width: 28vw;
+    height: 32vh;
     /*display: flex;*/
     list-style: none;
+}
+.Block_image
+{
+    object-fit: cover;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);*/
+    /*padding: 2rem;*/
+    
+    margin: 0.5vw;
+    /*margin-top: 2rem;*/
+
+    /*grid-template-columns: repeat(3, 30%);*/
+
+    
+    
+    position: relative;
+
+    flex-basis: 30vw;
+    width: 30vw;
+    height: 38vh;
+    /*display: flex;*/
+
 }

@@ -126,20 +126,8 @@ return (
         Height={"40vh"}
         description={"a well-preserved Roman city in Siliana"}/>
     </div>
-    
-
-    <ul style={{ marginLeft: '10rem', marginRight: '10rem', display:"" }}>
-        <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} /></li>
-        <li><img src="\Tun_App\images\Tunisia\Htime.png" style={{ width: '30%' }} alt='' /></li>
-
-        <li className='Block'>List Item 1</li>
-        <li className='Block'>List Item 2</li>
-        <li className='Block'>List Item 3</li>
-    </ul>
 
     
-
 </div>  
 
 );
