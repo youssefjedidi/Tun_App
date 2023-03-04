@@ -6,8 +6,6 @@ import SlidePR from '../components/SlidePR';
 import Container from '../components/Container';
 
 import './Home.css';
-
-import 'animate.css';
 import TrackVisibility from 'react-on-screen';  
 
 function HomePage() {
@@ -15,7 +13,6 @@ function HomePage() {
 return (
 <div>
   <TopBar />
-
     <div className="image-container">
         <img src="\Tun_App\tun1.png" alt="image" style={{ width: '100%' }} />
         <div className="text-overlay">

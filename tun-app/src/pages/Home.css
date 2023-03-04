@@ -2,7 +2,6 @@
 {
     margin-top: 5vh;
     position: relative;
-
 }
 .title
 {
@@ -13,8 +12,8 @@
 div
 {
     background-color:#FBF0D3 ;
-    
-    /*width: 100vw;*/   
+    overflow: hidden;
+    /*width: 100%;   */
 }   
 
 .text-overlay 

@@ -77,7 +77,8 @@ return (
     <SlidePL
         title="Ottoman empire (1534)" 
         subtitle='"Tunisia under Ottoman rule."' 
-        description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
+        description="In 1534, Tunisia became a province of the Ottoman Empire, which was a major political and cultural force in the region at the time. 
+        The Ottoman period had a significant impact on Tunisian culture and society, and many elements of Ottoman culture and influence can still be seen in Tunisia today."
         image="\Tun_App\images\Tunisia\Hottoman.jpg" />
     <SlidePR 
       title="Independence (1956)" 
