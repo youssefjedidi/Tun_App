@@ -13,6 +13,7 @@ import TrackVisibility from 'react-on-screen';
 
 function History() {
     document.body.style.backgroundColor = "#FBF0D3"
+    document.body.scrollTop = 0;
 return (
 <div> 
     <TopBar />
@@ -127,7 +128,7 @@ return (
         description={"a well-preserved Roman city in Siliana"}/>
     </div>
 
-    
+
 </div>  
 
 );
