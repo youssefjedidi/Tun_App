@@ -22,6 +22,7 @@
   
   .image_card.clicked {
 
+    border-radius: 300px;
     width: 20vw;
     height: 20vw;
     aspect-ratio: 1 / 1;
@@ -41,7 +42,7 @@
     overflow-wrap: normal;
     
     
-    border-radius: 300px;
+    border-radius: 2000px;
 
     height: 25vw;
     
@@ -54,11 +55,13 @@
   }
 
   .overlay.clicked {
+    border-radius: 2000px;
     transform: translateX(0%);
   }
 
   .image {
 
+    border-radius: 1000px;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
     width: 20vw ;
@@ -67,6 +70,7 @@
   
   .image.expanded {
 
+    border-radius: 000px;
     object-fit: cover;
     transform: scale(1.3);
   }
