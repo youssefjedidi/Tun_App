@@ -21,7 +21,7 @@
   }
   
   .image_card.clicked {
-
+    border-radius: 3000px;
     width: 20vw;
     height: 20vw;
     aspect-ratio: 1 / 1;
@@ -29,6 +29,7 @@
   
   
   .overlay {
+    border-radius: 3000px;
     display:flex;
     position: absolute;
     align-self: center;
@@ -41,8 +42,6 @@
     overflow-wrap: normal;
     
     
-    border-radius: 2000px;
-
     height: 25vw;
     
     padding-left: 1vw;
@@ -54,13 +53,13 @@
   }
 
   .overlay.clicked {
-    
+    border-radius: 3000px;
     transform: translateX(0%);
   }
 
   .image {
 
-    border-radius: 1000px;
+    border-radius: 3000px;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
     width: 20vw ;
@@ -69,7 +68,7 @@
   
   .image.expanded {
 
-
+    border-radius: 3000px;
     object-fit: cover;
     transform: scale(1.3);
   }
