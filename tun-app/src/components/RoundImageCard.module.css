@@ -22,7 +22,7 @@
   
   .image_card.clicked {
     overflow: hidden;
-    border-radius: 3000px;
+    
     width: 20vw;
     height: 20vw;
     aspect-ratio: 1 / 1;
