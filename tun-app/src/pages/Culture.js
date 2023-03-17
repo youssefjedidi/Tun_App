@@ -136,31 +136,31 @@ return (
          In addition to Arabic, French is also widely used in Tunisian literature due to the country’s history as a French protectorate."
         image="\Tun_App\images\Tunisia\CuktureBab.jpg" />
 
-
-
- <Personality
-    title='Ons jabeur' 
-    description="Ons Jabeur is a Tunisian professional tennis player who has achieved a career-high ranking of No. 2 in the Women's Tennis Association (WTA). 
-    She is the first Arab woman to reach a Grand Slam quarterfinal and the first and only muslim and Arab player, male or female, to reach a Grand Slam final in singles. 
-    Jabeur has won three singles titles on the WTA Tour and has also had success on the ITF Women's Circuit. 
-    In 2021, she became the first Arab woman to win a WTA Tour title and in 2022, she won her biggest title to date at the Madrid Open and reached her first major final at Wimbledon."
-    image="\Tun_App\images\Tunisia\Ons_jabeur.jpg" 
-    num="01"/>
-<Personality
-    title='Hammadi Agrebi' 
-    description='Hamadi Al-Agrebi (March 20, 1951 - August 21, 2020) whose real name is Mohamed Ben Rehaiem, is one of the best players in the history of the Sfaxien club and the Tunisian national team. 
-    He won the Tunisian championship with the Sfaxien club in 1978, 1981 and 1983. He is known as the "magician of the generations". 
-    He played with the Sfaxien club in the 1970s and contributed to winning many championships and then played with Al-Nassr in Saudi Arabia after the 1978 World Cup finals. He retired from football in 1989 '
-    image="\Tun_App\images\Tunisia\hammadi.png" 
-    num="02"/>
-<Personality
-    title='Osema mallouli' 
-    description='Oussama Mellouli is a Tunisian swimmer and Olympic medalist who has won a total of three Olympic medals (2008, 2012(2)), 
-    including two gold medals. He is the first person from Africa to win an Olympic medal in swimming, 
-    and he is also the first person to win medals in both the pool and open water at the same Olympic Games. 
-    Mellouli has also won numerous medals at the World Championships and other international competitions.'
-    image="\Tun_App\images\Tunisia\Mellouli.jpg" 
-    num="03"/>
+    
+    <h1 className='title'>sports and celebrities: </h1>
+    <Personality
+        title='Ons jabeur' 
+        description="Ons Jabeur is a Tunisian professional tennis player who has achieved a career-high ranking of No. 2 in the Women's Tennis Association (WTA). 
+        She is the first Arab woman to reach a Grand Slam quarterfinal and the first and only muslim and Arab player, male or female, to reach a Grand Slam final in singles. 
+        Jabeur has won three singles titles on the WTA Tour and has also had success on the ITF Women's Circuit. 
+        In 2021, she became the first Arab woman to win a WTA Tour title and in 2022, she won her biggest title to date at the Madrid Open and reached her first major final at Wimbledon."
+        image="\Tun_App\images\Tunisia\Ons_jabeur.jpg" 
+        num="01"/>
+    <Personality
+        title='Hammadi Agrebi' 
+        description='Hamadi Al-Agrebi (March 20, 1951 - August 21, 2020) whose real name is Mohamed Ben Rehaiem, is one of the best players in the history of the Sfaxien club and the Tunisian national team. 
+        He won the Tunisian championship with the Sfaxien club in 1978, 1981 and 1983. He is known as the "magician of the generations". 
+        He played with the Sfaxien club in the 1970s and contributed to winning many championships and then played with Al-Nassr in Saudi Arabia after the 1978 World Cup finals. He retired from football in 1989 '
+        image="\Tun_App\images\Tunisia\hammadi.png" 
+        num="02"/>
+    <Personality
+        title='Osema mallouli' 
+        description='Oussama Mellouli is a Tunisian swimmer and Olympic medalist who has won a total of three Olympic medals (2008, 2012(2)), 
+        including two gold medals. He is the first person from Africa to win an Olympic medal in swimming, 
+        and he is also the first person to win medals in both the pool and open water at the same Olympic Games. 
+        Mellouli has also won numerous medals at the World Championships and other international competitions.'
+        image="\Tun_App\images\Tunisia\Mellouli.jpg" 
+        num="03"/>
 
 </div>  
 
