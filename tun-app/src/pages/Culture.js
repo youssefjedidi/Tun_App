@@ -22,7 +22,7 @@ return (
     </div>
 
     <Container
-    title='"Culture intro"'
+    title='"Overview of Tunisian Culture"'
     image='\Tun_App\images\Tunisia\hhh.jpg'
     description="Tunisia is a land rich in cultural diversity, with a unique blend of indigenous  Berber, Arab, and Mediterranean influences that can be explored through its art, literature, sports, and food. 
       From traditional crafts such as ceramics and textiles to the diverse range of genres found in Tunisian literature, there is always something new to discover in Tunisian culture. 
