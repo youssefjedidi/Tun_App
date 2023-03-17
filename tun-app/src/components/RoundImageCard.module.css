@@ -11,7 +11,7 @@
 
     position:relative;
     overflow: hidden;
-    margin: 1vw;
+
     
     font-size: 1.25vw;
     border-radius: 3000px;
@@ -46,8 +46,9 @@
     
     
     height: 20vw;
+    padding: 2vw;
+    gap:1vw;
     
-    padding-left: 1vw;
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     transition: all 0.8s ease-in-out;
@@ -62,7 +63,7 @@
   }
 
   .image {
-
+    padding: 0vw;
     border-radius: 3000px;
     object-fit: cover;
     transition: all 0.3s ease-in-out;

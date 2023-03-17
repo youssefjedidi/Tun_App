@@ -21,7 +21,7 @@ return (
     </div>
     
     <h1 className='title'> Major tourist attractions: </h1>
-    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"27vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"27vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh", gap: "2vw"}}>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\douz.jpg"
         title={"douz"}
@@ -49,9 +49,9 @@ return (
         description={"a Roman archaeological site in Jendouba"}/>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\parc-el-feija20.jpg"
-        title={"The Dougga Archaeological Site"}
+        title={"El Feidja National Park"}
         Height={""}
-        description={"a well-preserved Roman city in Siliana"}/>
+        description={"Protected national park with diverse flora and fauna. known for its breathtaking landscapes."}/>
     </div>
 
    
