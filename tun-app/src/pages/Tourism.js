@@ -23,13 +23,13 @@ return (
     <h1 className='title'> Major tourist attractions: </h1>
     <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"27vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
         <RoundImageCard 
-        image="\Tun_App\images\Tunisia\Mosque-of-Kairouan.jpg"
-        title={"The Kairouan Mosque"}
+        image="\Tun_App\images\Tunisia\douz.jpg"
+        title={"douz"}
         Height={""}
         description={"a mosque and UNESCO World Heritage Site in Kairouan"}/>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\Ras_Rmall_Island_Djerba_Houmt_Souk_Tunisia.jpg"
-        title={"El Djem Amphitheater"}
+        title={"Djerba"}
         Height={""}
         description={"a Roman amphitheater in El Djem"}/>
         <RoundImageCard 
@@ -66,6 +66,7 @@ return (
         Visiting a souq is an essential cultural experience, providing an opportunity to immerse yourself in the local culture, sample the cuisine, and pick up authentic souvenirs. 
         Some famous souqs in Tunisia include souq el-Attarine in the Tunis Medina and the souq in medina sfax."
         image="\Tun_App\images\Tunisia\tunisia_souq.jpg" />
+
     <SlidePR 
       title="Ez-zitouna University (737 CE)" 
       subtitle='"The oldest university in THE WORLD"' 
@@ -79,17 +80,6 @@ return (
         subtitle='"Tunisia under Ottoman rule."' 
         description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
         image="\Tun_App\images\Tunisia\Hottoman.jpg" />
-    <SlidePR 
-      title="Independence (1956)" 
-      subtitle="''Tunisia's journey to independence''"
-      description="Tunisia gained independence from France in 1956, after over 70 years of colonial rule. Independence was followed by a period of political and economic development, as the country worked to establish itself as a sovereign nation."
-      image="/Tun_App/images/Tunisia/Hindependence.jpg"/>
-
-    <SlidePL
-        title="Revolution (2011)" 
-        subtitle='"Overthrowing the old regime"' 
-        description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
-        image="\Tun_App\images\Tunisia\Hrevolution.png" />
 
 </div>  
 
