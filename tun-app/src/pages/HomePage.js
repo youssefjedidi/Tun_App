@@ -32,13 +32,19 @@ return (
     <SlidePL
         title="History" 
         subtitle='"Explore Tunisian history from ancient civilizations to modern democracy."' 
-        description="Tunisia has a long and rich history  dating back to ancient civilizations like the Phoenicians and Romans. The country has experienced periods of independence, colonization, and dictatorship, and is now a democratic republic. Its 11 million population and diverse economy are centered around Tunis, the capital city. Tunisian history is marked by important events and landmarks, like the ancient city of Carthage and the medina of Sfax, as well as revolutions and wars."
+        description="Tunisia has a long and rich history  dating back to ancient civilizations like the Phoenicians and Romans. 
+        The country has experienced periods of independence, colonization, and dictatorship, and is now a democratic republic. 
+        Its 11 million population and diverse economy are centered around Tunis, the capital city. Tunisian history is marked by important events and landmarks, 
+        like the ancient city of Carthage and the medina of Sfax, as well as revolutions and wars."
         image="\Tun_App\images\Tunisia\the-amphitheatre-of-el-jem_aerial-view_archeologpl.jpg" 
         link="history"/>
     <SlidePR 
       title="Culture" 
       subtitle='"Experience Tunisian culture through art, literature, sports  and food."' 
-      description="Tunisia is a land rich in cultural diversity, with a unique blend of indigenous  Berber, Arab, and Mediterranean influences that can be explored through its art, literature, sports, and food. From traditional crafts such as ceramics and textiles to the diverse range of genres found in Tunisian literature, there is always something new to discover in Tunisian culture. And when it comes to food, Tunisian cuisine is a true reflection of the country's diverse cultural influences, with dishes like couscous and tajine that are sure to satisfy even the most discerning palate. Tunisian culture is also shaped by the dominant religion of Islam and by the achievements of sports figures like Mohamed Ben Rehaiem and Ons Jabeur. So come and experience the vibrant, colorful culture of Tunisia – a culture that is truly one of a kind."
+      description="Tunisia's unique cultural diversity offers a rich tapestry of indigenous Berber, Arab, and Mediterranean influences. 
+      Its art, literature, sports, and food reflect this diversity, showcasing a range of traditional crafts and dishes such as couscous and tajine. 
+      Tunisian culture is also shaped by Islam and sports achievements of figures like Mohamed Ben Rehaiem and Ons Jabeur. 
+      Come and experience the vibrant and colorful culture of Tunisia, a true reflection of its diverse cultural influences."
       image="\Tun_App\images\Tunisia\3431090275_586a6346a3_b.jpg"
       link="culture"/>
     

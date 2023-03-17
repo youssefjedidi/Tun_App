@@ -3,7 +3,7 @@ import React from 'react';
 import TopBar from '../components/TopBar';
 import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
-import PersonTable from '../components/PersonTable';
+import Container from '../components/Container';
 import ImageCard from '../components/ImageCard';
 import Personality from '../components/Personality';
 
@@ -20,6 +20,16 @@ return (
     <div className="image-container">
         <img src="\Tun_App\images\Tunisia\tunisiaCv6.png" style={{ width: '100%'}} />
     </div>
+
+    <Container
+    title='"Culture intro"'
+    image='\Tun_App\images\Tunisia\hhh.jpg'
+    description="Tunisia is a land rich in cultural diversity, with a unique blend of indigenous  Berber, Arab, and Mediterranean influences that can be explored through its art, literature, sports, and food. 
+      From traditional crafts such as ceramics and textiles to the diverse range of genres found in Tunisian literature, there is always something new to discover in Tunisian culture. 
+      And when it comes to food, Tunisian cuisine is a true reflection of the country's diverse cultural influences, with dishes like couscous and tajine that are sure to satisfy even the most discerning palate. 
+      Tunisian culture is also shaped by the dominant religion of Islam and by the achievements of sports figures like Mohamed Ben Rehaiem and Ons Jabeur. 
+      Experience the vibrant, colorful culture of Tunisia – a culture that is truly one of a kind."
+      />
 
     <h1 className='title'> Art and architecture: </h1>
 

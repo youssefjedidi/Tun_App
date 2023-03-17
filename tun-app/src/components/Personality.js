@@ -16,7 +16,7 @@ return (
       <ul><a>{props.title}</a><p>{props.num}</p></ul>
       <p>
       {props.description}  
-      </p>  
+      </p>
     </div>
 </div>
     

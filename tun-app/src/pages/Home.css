@@ -43,10 +43,12 @@ div
     border-color: black;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    
     padding: 3vw;
     
     margin: auto;
-    /*margin-top: 2rem;*/
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 
     position: relative;
     max-width: 70vw;
@@ -74,8 +76,8 @@ div
 
     text-align: justify;
     max-width: 60vw;
-    padding: 1vw;
-    margin: 3vw;
+    padding: 2vw;
+    /*margin: 3vw;*/
 }
 .intro-container ul p{
     color: #312f2f;
@@ -88,9 +90,14 @@ div
 /*------------- content ---------------------- */
 .content{
     display:flex;
-    /*list-style: none;*/
+    /*list-style: none;
     margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-bottom: 2vh;*/
+    gap: 5vw;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .content img{
     /*display:;
@@ -104,11 +111,12 @@ div
     /*vertical-align: middle;*/
     object-fit: cover;
 
-    aspect-ratio: 2.5 / 1.5;
-    width: 45vw;
-    /*max-height:50vh;*/
+    aspect-ratio: 3 / 2;
+    width: 40vw;
+    /*max-height:50vh;*
     
-    padding: 3vw;
+    padding: 3vw;*/
+
 }
 .content ul{
     display: flex;
@@ -121,7 +129,7 @@ div
     width: 55vw;
     text-align: justify;
     /*max-height:50vh;*/
-    padding: 5vw;
+    padding: 0vw;
 }
 .content ul a{
 color: #8E4A00;

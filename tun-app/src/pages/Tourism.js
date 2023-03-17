@@ -54,52 +54,18 @@ return (
         description={"a well-preserved Roman city in Siliana"}/>
     </div>
 
-    <h1 className='title'> Major historical sites and landmarks: </h1>
+   
 
-    <PersonTable
-    title1 = "Ibn Khaldun (1332-1406)"
-    subtitle1='Arab historian, philosopher' 
-    description1='"a 14th-century Islamic philosopher who basically invented what we would now call the social sciences" Ibn Khaldun was a Tunisian historian and philosopher who is considered one of the greatest scholars of the Middle Ages. He is known for his influential work on the history and sociology of the Arab world, and is considered a pioneer in the field of historiography.'
-    image1="\Tun_App\images\Tunisia\ibn_khaldun.jpg"
-
-    title2 = "Ahmad Bey (1805-1855)"
-    subtitle2='Tunisian ruler, modernizer' 
-    description2='Ahmad Bey was the ruler of Tunis from 1837 to 1855. He is known for modernizing Tunisian society and government, and for promoting education and scientific research. He was responsible for the abolition of slavery in Tunisia in 1846.'
-    image2="\Tun_App\images\Tunisia\Ahmed_I_Bey.jpg"
-
-    title3 = "Habib Bourguiba(1903-2000)"
-    subtitle3='Tunisian president, modernizer' 
-    description3="Habib Bourguiba was the first President of Tunisia and served from 1957 to 1987. He is known for leading the country to independence from France and for implementing social and economic reforms, including the promotion of education and the advancement of women's rights."
-    image3="\Tun_App\images\Tunisia\Habib_Bourguiba.jpg"
-    />
-    <PersonTable
-    title1 = "Tahar Haddad (1898-1934)"
-    subtitle1='Tunisian writer, nationalist' 
-    description1='Tahar Haddad was a Tunisian writer and intellectual who was an important figure in the Tunisian nationalist movement. He is known for his contributions to Tunisian literature and for his advocacy for Tunisian independence.'
-    image1="\Tun_App\images\Tunisia\Tahar_Haddad.jpg"
-
-    title2 = "Tewhida Ben Sheikh(1909-2010)"
-    subtitle2='Pioneering Female Tunisian Doctor' 
-    description2="Dr. Tewhida Ben Sheikh was a pioneering physician in Tunisia, particularly in the fields of contraception and abortion access. She was the first modern Tunisian woman to become a doctor, and her work has had a lasting impact on women's healthcare in the country."
-    image2="\Tun_App\images\Tunisia\Tawhida_Ben_Cheikh.jpg"
-
-    title3 = "Aboul-Qacem Echebbi (1909–1934)"
-    subtitle3='Tunisian poet, nationalist' 
-    description3="Aboul-Qacem Echebbi was a Tunisian poet and nationalist who played a significant role in the country's fight for independence from French colonial rule. He is known for his powerful and moving poetry that inspired Tunisians to fight for their freedom and dignity. Echebbi is remembered as a national hero and a symbol of Tunisian resistance."
-    image3="\Tun_App\images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
-    />
-
-    <h1 className='title'> Overview of Tunisia's history: </h1>  
-
-    <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\Htime1.png" style={{ width: '90vw', paddingLeft: "5vw" }} />
-    </div>  
+    <h1 className='title'> Cultural experiences and activities : </h1>  
     
     <SlidePL
-        title="Carthage (814 BC)" 
-        subtitle='"The rise of Carthage"' 
-        description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
-        image="\Tun_App\images\Tunisia\Hcartage.jpeg" />
+        title="Traditional Tunisian Souqs:" 
+        subtitle='"Where tardition meets commerce"' 
+        description="From Spices to handicrafts, Exploring Tunisian souqs offers a unique and immersive cultural experience. 
+        These bustling marketplaces sell a variety of goods, from spices and textiles to ceramics and traditional handicrafts. 
+        Visiting a souq is an essential cultural experience, providing an opportunity to immerse yourself in the local culture, sample the cuisine, and pick up authentic souvenirs. 
+        Some famous souqs in Tunisia include souq el-Attarine in the Tunis Medina and the souq in medina sfax."
+        image="\Tun_App\images\Tunisia\tunisia_souq.jpg" />
     <SlidePR 
       title="Ez-zitouna University (737 CE)" 
       subtitle='"The oldest university in THE WORLD"' 
