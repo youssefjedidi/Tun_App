@@ -14,7 +14,9 @@
   grid-row-end: span 2;*/
   width: 13vw;
   height: 45vh;
-  
+
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+
   transition: width 1s, height 0.5s ease-in-out;
 }
 
