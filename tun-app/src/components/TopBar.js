@@ -1,45 +1,58 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './TopBar.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function TopBar() {
-  const [scrolled, setScrolled] = useState(false);
+  const [activeTab, setActiveTab] = useState("");
 
-  useEffect(() => {
-    function handleScroll() {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  const handleTabClick = (tabName) => {
+    setActiveTab(tabName);
+  };
 
   return (
-    <nav className={scrolled ? 'top-bar scrolled' : 'top-bar'}>
-      
+    <nav className="top-bar">
       <ul>
-        <img src="/Tun_App/images/Tunisia/tnnc.png" alt="Tunisia"  className="logo" ></img>
+        <img src="/Tun_App/images/Tunisia/tnnc.png" alt="Tunisia" className="logo" />
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={() => handleTabClick('Home')} className={activeTab === 'Home' ? 'active' : ''}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/tourism">Tourism</Link>
+          <Link
+            to="/tourism"
+            onClick={() => handleTabClick('Tourism')}
+            className={activeTab === 'Tourism' ? 'active' : ''}
+          >
+            Tourism
+          </Link>
         </li>
         <li>
-          <Link to="/history">History</Link>
+          <Link
+            to="/history"
+            onClick={() => handleTabClick('History')}
+            className={activeTab === 'History' ? 'active' : ''}
+          >
+            History
+          </Link>
         </li>
         <li>
-          <Link to="/culture">Culture</Link>
+          <Link
+            to="/culture"
+            onClick={() => handleTabClick('Culture')}
+            className={activeTab === 'Culture' ? 'active' : ''}
+          >
+            Culture
+          </Link>
         </li>
         <li>
-          <Link to="/technology">Technology and Research</Link>
+          <Link
+            to="/technology"
+            onClick={() => handleTabClick('Technology')}
+            className={activeTab === 'Technology' ? 'active' : ''}
+          >
+            Technology and Research
+          </Link>
         </li>
       </ul>
     </nav>
