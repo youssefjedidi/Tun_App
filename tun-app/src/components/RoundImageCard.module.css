@@ -12,7 +12,7 @@
     position:relative;
     overflow: hidden;
 
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
     border-color: #7b7b7b;
     border-style:solid;
     border-width: 0.1vw;
