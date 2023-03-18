@@ -64,7 +64,7 @@ return (
         description="From Spices to handicrafts, Exploring Tunisian souqs offers a unique and immersive cultural experience. 
         These bustling marketplaces sell a variety of goods, from spices and textiles to ceramics and traditional handicrafts. 
         Visiting a souq is an essential cultural experience, providing an opportunity to immerse yourself in the local culture, sample the cuisine, and pick up authentic souvenirs. 
-        Some famous souqs in Tunisia include souq el-Attarine in the Tunis Medina and the souq in medina sfax."
+        Some famous souqs in Tunisia include souq el-Attarine in the Tunis Medina and the Souq Erbaa in Medina Sfax."
         image="\Tun_App\images\Tunisia\tunisia_souq.jpg" />
 
     <SlidePR 
