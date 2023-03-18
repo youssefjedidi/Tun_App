@@ -36,9 +36,7 @@
 }
 
 .top-bar a:hover,
-.top-bar li a.active {
-  color: #b32305;
-}
+
 
 .top-bar li a.active {
   color: #b32305;
