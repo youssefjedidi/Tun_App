@@ -5,6 +5,7 @@ import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
 import Container from '../components/Container';
 import ImageCard from '../components/ImageCard';
+import RoundImageCard from '../components/RoundImageCard';
 import Personality from '../components/Personality';
 
 import './Home.css';
@@ -123,7 +124,35 @@ return (
          In addition to Arabic, French is also widely used in Tunisian literature due to the country’s history as a French protectorate."
         image="\Tun_App\images\Tunisia\CuktureBab.jpg" />
 
-    
+    <h1 className='title'> Food and culinary traditions: </h1>
+
+    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"22vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh", gap: "2vw"}}>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\slataMechwia.jpg"
+        title={"starters"}
+        description={"Grilled Salad/ Slata mechwia"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\hrisa.jpg"
+        title={"starters"}
+        description={"Harissa with Olive oil "}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\couscous-viande.jpg"
+        title={"main plate"}        
+        description={"coucous (coscsi)"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\mloukhia.jpg"
+        title={"main plate"}        
+        description={"mloukhia"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\lablebi.jpg"
+        title={"street food"}       
+        description={"Lablebi"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\brik.jpg"
+        title={"street food"}        
+        description={"Brik"}/>
+    </div>
+
     <h1 className='title'>sports and celebrities: </h1>
     <Personality
         title='Ons jabeur' 

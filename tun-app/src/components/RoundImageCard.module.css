@@ -17,7 +17,7 @@
     border-style:solid;
     border-width: 0.05vw;
 
-    font-size: 1.25vw;
+    font-size: 1.4vw;
     border-radius: 3000px;
     width: 13vw;
     height: 13vw;
@@ -47,10 +47,11 @@
     
     text-align: center;
     overflow-wrap: normal;
-    
+    box-sizing:border-box;
     
     height: 20vw;
-    padding: 2vw;
+    width: 20vw;
+    padding: 1vw;
     gap:1vw;
     
     background-color: rgba(0, 0, 0, 0.4);
