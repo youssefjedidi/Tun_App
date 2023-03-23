@@ -43,11 +43,11 @@ div
 .intro-container
 {
     background-color: #FDF6D8;
-    border-color: black;
+    border-color: #e0dbc2;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     
-    padding: 3vw;
+    padding: 1.5vw;
     
     margin: auto;
     margin-top: 2vw;
@@ -63,7 +63,7 @@ div
   
     /*border: 1px solid rgb(255 255 255 / 5%);*/
     border-radius: 1.5rem;
-    padding: 1rem;
+    
 }
 .intro-container img{
     border-radius: 100px;
@@ -124,7 +124,7 @@ div
 
 .intro-container:before {
   top: 0%;
-  left: 0px;
+  left: 0.5px;
   transition: top 600ms ease, opacity 600ms ease;
   transition-property: top, opacity;
 }
