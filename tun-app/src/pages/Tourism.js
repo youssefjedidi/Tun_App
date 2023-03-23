@@ -68,12 +68,15 @@ return (
         image="\Tun_App\images\Tunisia\tunisia_souq.jpg" />
 
     <SlidePR 
-      title="Ez-zitouna University (737 CE)" 
-      subtitle='"The oldest university in THE WORLD"' 
-      description="Ez-zitouna University, also known as the University of Ez-Zitouna, is the oldest university in THE WORLD in continuous operation.
-      It was founded in the 8th century CE and has played an important role in Tunisian education and intellectual life. The university is known for its Islamic studies programs and has educated many prominent scholars and religious leaders over the years.
-      Despite the religion's dominance, in Madrasas students could learn about science, philosophy, mathematics, art, and many other subjects."
-      image="\Tun_App\images\Tunisia\Hzitouna.jpg"/>
+      title="Tunisia Beyond the Tourist Trail: Alternative Tourism Adventures" 
+      subtitle='"From Exploring Hidden Wonders to Wine Tasting and olive harvesting"' 
+      description="Alternative tourism in Tunisia offers a range of unique and authentic experiences that allow you to discover the country's diverse landscapes and cultural heritage. 
+      Activities such as horseback riding or camel riding provide exciting ways to explore and gain insight into Tunisia's history and traditions. 
+      For a more leisurely experience, you can taste exquisite wines in Cap-Bon or experience olive harvesting with local farmers. 
+      The sport of mountain trekking allows you to explore hidden natural wonders and discover the beauty of Tunisia's landscapes. 
+      A visit to Tunisia's museums, archaeological sites, and Berber villages will immerse you in the country's rich history and cultural diversity. 
+      making your trip to Tunisia an enriching and rewarding experience."
+      image="\Tun_App\images\Tunisia\alternative_tourism.jpg"/>
 
     <SlidePL
         title="Ottoman empire (1534)" 
