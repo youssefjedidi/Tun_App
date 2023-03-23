@@ -37,6 +37,9 @@ div
 
 
 /*------------- intro container ---------------------- */
+* {
+  box-sizing: border-box;
+}
 .intro-container
 {
     background-color: #FDF6D8;
@@ -56,6 +59,11 @@ div
 
     display: flex;
     list-style: none;
+    
+  
+    /*border: 1px solid rgb(255 255 255 / 5%);*/
+    border-radius: 1.5rem;
+    padding: 1rem;
 }
 .intro-container img{
     border-radius: 100px;
@@ -86,6 +94,46 @@ div
 .intro-container ul h2{
     font-size: 2vw;
 }
+
+
+.intro-container:after,
+.intro-container:before {
+  content: "";
+  height: 15vh;
+  width: 0.1vw;
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    #B32305,
+    transparent
+  );
+  opacity: 0;
+}
+
+.intro-container:after {
+  top: 85%;
+  right: 0px;
+  transition: top 600ms ease, opacity 600ms ease;
+  transition-property: top, opacity;
+}
+
+.intro-container:hover:after {
+  top: 15%;
+  opacity: 1;
+}
+
+.intro-container:before {
+  top: 0%;
+  left: 0px;
+  transition: top 600ms ease, opacity 600ms ease;
+  transition-property: top, opacity;
+}
+
+.intro-container:hover:before {
+  top: 65%;
+  opacity: 1;
+}
+
 
 /*------------- content ---------------------- */
 .content{
