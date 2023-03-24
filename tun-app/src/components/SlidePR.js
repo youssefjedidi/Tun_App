@@ -29,17 +29,15 @@ return (
       animate={controls}
       initial="hidden"
       variants={squareVariants}className="content" >
-  <ul>
-    <a>{props.title}</a>
-    <h2>{props.subtitle}</h2>
-    <p>
-    {props.description}
-    </p>
-    
-    <Link to={props.link}><button>Learn More</button></Link>
-    
-  </ul>
-  <img src={props.image} alt={props.subtitle}></img>
+    <ul>
+      <a>{props.title}</a>
+      <h2>{props.subtitle}</h2>
+      <p>
+      {props.description}
+      </p>
+      <Link to={props.link}><button>Learn More</button></Link>
+    </ul>
+    <img src={props.image} alt={props.subtitle}></img>
 </motion.div>
 
 );

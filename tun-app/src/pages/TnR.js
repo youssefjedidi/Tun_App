@@ -3,7 +3,7 @@ import React from 'react';
 import TopBar from '../components/TopBar';
 import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
-import PersonTable from '../components/PersonTable';
+import Personality from '../components/Personality';
 import ImageCard from '../components/ImageCard';
 
 
@@ -22,38 +22,28 @@ return (
     
     <h1 className='title'> Important historical figures: </h1>
 
-    <PersonTable
-    title1 = "Ibn Khaldun (1332-1406)"
-    subtitle1='Arab historian, philosopher' 
-    description1='"a 14th-century Islamic philosopher who basically invented what we would now call the social sciences" Ibn Khaldun was a Tunisian historian and philosopher who is considered one of the greatest scholars of the Middle Ages. He is known for his influential work on the history and sociology of the Arab world, and is considered a pioneer in the field of historiography.'
-    image1="\Tun_App\images\Tunisia\ibn_khaldun.jpg"
-
-    title2 = "Ahmad Bey (1805-1855)"
-    subtitle2='Tunisian ruler, modernizer' 
-    description2='Ahmad Bey was the ruler of Tunis from 1837 to 1855. He is known for modernizing Tunisian society and government, and for promoting education and scientific research. He was responsible for the abolition of slavery in Tunisia in 1846.'
-    image2="\Tun_App\images\Tunisia\Ahmed_I_Bey.jpg"
-
-    title3 = "Habib Bourguiba(1903-2000)"
-    subtitle3='Tunisian president, modernizer' 
-    description3="Habib Bourguiba was the first President of Tunisia and served from 1957 to 1987. He is known for leading the country to independence from France and for implementing social and economic reforms, including the promotion of education and the advancement of women's rights."
-    image3="\Tun_App\images\Tunisia\Habib_Bourguiba.jpg"
-    />
-    <PersonTable
-    title1 = "Tahar Haddad (1898-1934)"
-    subtitle1='Tunisian writer, nationalist' 
-    description1='Tahar Haddad was a Tunisian writer and intellectual who was an important figure in the Tunisian nationalist movement. He is known for his contributions to Tunisian literature and for his advocacy for Tunisian independence.'
-    image1="\Tun_App\images\Tunisia\Tahar_Haddad.jpg"
-
-    title2 = "Tewhida Ben Sheikh(1909-2010)"
-    subtitle2='Pioneering Female Tunisian Doctor' 
-    description2="Dr. Tewhida Ben Sheikh was a pioneering physician in Tunisia, particularly in the fields of contraception and abortion access. She was the first modern Tunisian woman to become a doctor, and her work has had a lasting impact on women's healthcare in the country."
-    image2="\Tun_App\images\Tunisia\Tawhida_Ben_Cheikh.jpg"
-
-    title3 = "Aboul-Qacem Echebbi (1909–1934)"
-    subtitle3='Tunisian poet, nationalist' 
-    description3="Aboul-Qacem Echebbi was a Tunisian poet and nationalist who played a significant role in the country's fight for independence from French colonial rule. He is known for his powerful and moving poetry that inspired Tunisians to fight for their freedom and dignity. Echebbi is remembered as a national hero and a symbol of Tunisian resistance."
-    image3="\Tun_App\images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
-    />
+    <Personality
+        title='TELNET' 
+        description="Ons Jabeur is a Tunisian professional tennis player who has achieved a career-high ranking of No. 2 in the Women's Tennis Association (WTA). 
+        She is the first Arab woman to reach a Grand Slam quarterfinal and the first and only muslim and Arab player, male or female, to reach a Grand Slam final in singles. 
+        Jabeur has won three singles titles on the WTA Tour and has also had success on the ITF Women's Circuit. 
+        In 2021, she became the first Arab woman to win a WTA Tour title and in 2022, she won her biggest title to date at the Madrid Open and reached her first major final at Wimbledon."
+        image="\Tun_App\images\Tunisia\Ons_jabeur.jpg" 
+        num="01"/>
+    <Personality
+        title='Mohamed Abid' 
+        description='Dr. Mohamed Abid (Mo) is the Mars 2020 Deputy Chief Mechanical Engineer and Manager of the Mechatronics group at JPL(NASA). 
+        PhD in Aerospace and mechanical engineering.'
+        image="\Tun_App\images\Tunisia\mohamed_abid.jpg" 
+        num="02"/>
+    <Personality
+        title='Osema mallouli' 
+        description='Oussama Mellouli is a Tunisian swimmer and Olympic medalist who has won a total of three Olympic medals (2008, 2012(2)), 
+        including two gold medals. He is the first person from Africa to win an Olympic medal in swimming, 
+        and he is also the first person to win medals in both the pool and open water at the same Olympic Games. 
+        Mellouli has also won numerous medals at the World Championships and other international competitions.'
+        image="\Tun_App\images\Tunisia\Mellouli.jpg" 
+        num="03"/>
 
     <h1 className='title'> Overview of Tunisia's history: </h1>  
 

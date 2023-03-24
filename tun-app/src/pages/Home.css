@@ -293,9 +293,6 @@ font-size: 2vw;
     /*margin-top: 2rem;*/
 
     /*grid-template-columns: repeat(3, 30%);*/
-
-    
-    
     position: relative;
 
     flex-basis: 30vw;
@@ -303,4 +300,65 @@ font-size: 2vw;
     height: 38vh;
     /*display: flex;*/
 
+}
+
+.tech
+{
+    position:relative;
+    float:left;
+    width: 100vw;
+
+    display: flex;
+    overflow: hidden;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+.tech img
+{
+    object-fit: cover;
+    width: 100vw;
+    aspect-ratio: 2/0.75;
+    justify-self: center;
+    align-self: center;
+}
+.mask
+{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    aspect-ratio: 2/0.75;
+    padding-left: 5vw;
+    padding-top: 10vh;
+    padding-right: 60vw;
+    padding-bottom: 10vh;
+
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.mask h1{
+    font-weight: 1000;
+}
+.mask button
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: 500;
+    color:#B32305;
+    display: inline-block;
+    background-color:#FBF0D3;
+    width: 20%;
+    /*min-height: 50%;*/
+    border-radius: 30px;
+    border-color: none;
+    text-decoration: none;
 }

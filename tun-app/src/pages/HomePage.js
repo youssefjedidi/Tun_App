@@ -4,6 +4,8 @@ import TopBar from '../components/TopBar';
 import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
 import Container from '../components/Container';
+import ImageCard from '../components/ImageCard';
+import { Link } from 'react-router-dom';
 
 import './Home.css';
 import TrackVisibility from 'react-on-screen';  
@@ -48,19 +50,49 @@ return (
       image="\Tun_App\images\Tunisia\3431090275_586a6346a3_b.jpg"
       link="culture"/>
     
-    <ul>
-        <div style={{display:"flex", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"1vh", marginBottom:"0vh"}}>
+    <ul style={{display:"none"}}>
+        <div style={{display:"hidden", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"1vh", marginBottom:"0vh"}}>
         <img className="Block_image" src="\Tun_App\images\Tunisia\djerba_tunisia.jpg" />
         <img className="Block_image" src="\Tun_App\images\Tunisia\douz.jpg" />
         <img className="Block_image" src="\Tun_App\images\Tunisia\El_Feidja_National_Park_Tunisia.png" />
         </div>
-        <div style={{display:"flex", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"0vh", marginBottom:"1vh"}}>
+        <div style={{display:"hidden", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"0vh", marginBottom:"1vh"}}>
         <li className='Block'><a>Djerba Island, Tunisia</a>List Item 1</li>
         <li className='Block'>List Item 2</li>
         <li className='Block'>List Item 3</li>
         </div>
     </ul>
 
+    <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\djerba_tunisia.jpg"
+        title={"Diane the Huntress"}
+        Height={"45vh"}
+        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\douz.jpg"
+        title={"Carthage"}
+        Height={"50vh"}
+        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\El_Feidja_National_Park_Tunisia.png" 
+        title={"The Bardo Museum"}
+        Height={"45vh"}
+        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+    </div>
+
+    <div className="tech">
+      <img  src="\Tun_App\images\Tunisia\Challenge-One-Satellite.jpg" />
+      <div className='mask'>
+        <h1>Technology and Research: Discover Tunisian innovation!</h1>
+        <p>Tunisia is home to a thriving technology and research scene, 
+          Tunisian technology and research is making a real impact. 
+          Explore our "Technology and Research" section to learn more about the successes and achievements of Tunisian tech and research, 
+          and discover the exciting innovations and developments coming out of the country.</p>
+          <Link to="/technology"><button>Learn More</button></Link>
+      </div>
+
+    </div>
     
     <Container
     title="We look forward to welcoming you to Tunisia in the future"
