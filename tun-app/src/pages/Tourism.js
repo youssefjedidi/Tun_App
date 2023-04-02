@@ -70,19 +70,10 @@ return (
     <SlidePR 
       title="Tunisia Beyond the Tourist Trail: Alternative Tourism Adventures" 
       subtitle='"From Exploring Hidden Wonders to Wine Tasting and olive harvesting"' 
-      description="Alternative tourism in Tunisia offers a range of unique and authentic experiences that allow you to discover the country's diverse landscapes and cultural heritage. 
-      Activities such as horseback riding or camel riding provide exciting ways to explore and gain insight into Tunisia's history and traditions. 
-      For a more leisurely experience, you can taste exquisite wines in Cap-Bon or experience olive harvesting with local farmers. 
-      The sport of mountain trekking allows you to explore hidden natural wonders and discover the beauty of Tunisia's landscapes. 
-      A visit to Tunisia's museums, archaeological sites, and Berber villages will immerse you in the country's rich history and cultural diversity. 
-      making your trip to Tunisia an enriching and rewarding experience."
-      image="\Tun_App\images\Tunisia\alternative_tourism.jpg"/>
-
-    <SlidePL
-        title="Ottoman empire (1534)" 
-        subtitle='"Tunisia under Ottoman rule."' 
-        description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
-        image="\Tun_App\images\Tunisia\Hottoman.jpg" />
+      description="Alternative tourism in Tunisia offers unique experiences to discover the country’s landscapes and culture. 
+      Activities include horseback riding, camel riding, wine tasting, olive harvesting, and mountain trekking. 
+      Visiting museums, archaeological sites, and Berber villages will immerse you in Tunisia’s rich history and cultural diversity."
+      image="\Tun_App\images\Tunisia\alternative_tourism_tn.jpg"/>
 
 </div>  
 

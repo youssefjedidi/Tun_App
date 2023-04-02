@@ -38,7 +38,7 @@ function TopBar() {
         <li>
           <Link to="/culture" className={location.pathname === "/culture" ? "active" : ""}>Culture</Link>
         </li>
-        <li>
+        <li style={{display:"none"}}>
           <Link to="/technology" className={location.pathname === "/technology" ? "active" : ""}>Technology and Research</Link>
         </li>
       </ul>
