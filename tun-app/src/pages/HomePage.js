@@ -16,7 +16,7 @@ return (
 <div>
   <TopBar />
     <div className="image-container">
-        <img src="\Tun_App\tun1.png" alt="image" style={{ width: '100%' }} />
+        <img src="\Tun_App\images\Tunisia\tun3.png" alt="image" style={{ width: '100%' }} />
         <div className="text-overlay">
           <p >Tunisia is a muslim country located in North Africa, on the Mediterranean coast. It is a democratic republic with a diverse economy and a population of around 11 million people. The official language is Arabic, but French is also widely spoken.
           Tunis is the capital city, and it is known for its rich cultural heritage and vibrant atmosphere. 
@@ -63,33 +63,16 @@ return (
         </div>
     </ul>
 
-    <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\djerba_tunisia.jpg"
-        title={"Diane the Huntress"}
-        Height={"45vh"}
-        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\douz.jpg"
-        title={"Carthage"}
-        Height={"50vh"}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\El_Feidja_National_Park_Tunisia.png" 
-        title={"The Bardo Museum"}
-        Height={"45vh"}
-        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
-    </div>
+
 
     <div className="tech">
-      <img  src="\Tun_App\images\Tunisia\Challenge-One-Satellite.jpg" />
+      <img  src="\Tun_App\images\Tunisia\tourism_tunisia.jpg" />
       <div className='mask'>
-        <h1>Technology and Research: Discover Tunisian innovation!</h1>
-        <p>Tunisia is home to a thriving technology and research scene, 
-          Tunisian technology and research is making a real impact. 
-          Explore our "Technology and Research" section to learn more about the successes and achievements of Tunisian tech and research, 
-          and discover the exciting innovations and developments coming out of the country.</p>
-          <Link to="/technology"><button>Learn More</button></Link>
+        <h1>Tourism in Tunisia: Discover the beauty of Tunisia!</h1>
+        <p>Tunisia is home to a thriving tourism industry, with stunning beaches, rich history and culture, and delicious cuisine.
+           Explore our “Tourism” section to learn more about the attractions and experiences that Tunisia has to offer, 
+           and discover the beauty and charm of this Mediterranean gem.</p>
+          <Link to="/tourism"><button>Learn More</button></Link>
       </div>
 
     </div>

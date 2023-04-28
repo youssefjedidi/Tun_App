@@ -62,48 +62,7 @@ return (
         description={"a Roman archaeological site in Jendouba"}/>
     </div>
     
-    <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\Mosque-of-Kairouan.jpg"
-        title={"The Kairouan Mosque"}
-        Height={"45vh"}
-        description={"a mosque and UNESCO World Heritage Site in Kairouan"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\jam.jpg"
-        title={"El Djem Amphitheater"}
-        Height={"50vh"}
-        description={"a Roman amphitheater in El Djem"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\Carthage-788x537.png"
-        title={"Carthage"}
-        Height={"42vh"}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\bardo-museum.jpg"
-        title={"The Bardo Museum"}
-        Height={"40vh"}
-        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\bulla-regia.jpg"
-        title={"The Bulla Regia"}
-        Height={"50vh"}
-        description={"a Roman archaeological site in Jendouba"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\Carthage-788x537.png"
-        title={"Carthage"}
-        Height={"41vh"}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\bardo-museum.jpg"
-        title={"The Bardo Museum"}
-        Height={"48vh"}
-        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
-        <ImageCard 
-        image="\Tun_App\images\Tunisia\bulla-regia.jpg"
-        title={"The Bulla Regia"}
-        Height={"44vh"}
-        description={"a Roman archaeological site in Jendouba"}/>
-    </div>
+    
 
     <h1 className='title'> Religion, Literature and language: </h1>
     <SlidePR 

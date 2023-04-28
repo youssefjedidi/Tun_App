@@ -18,43 +18,8 @@ return (
 <div> 
     <TopBar />
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\Hmain1.jpg" style={{ width: '100%'}} />
+        <img src="\Tun_App\images\Tunisia\HistoryMain.png" style={{ width: '100%'}} />
     </div>
-    
-    <h1 className='title'> Important historical figures: </h1>
-
-    <PersonTable
-    title1 = "Ibn Khaldun (1332-1406)"
-    subtitle1='Arab historian, philosopher' 
-    description1='"a 14th-century Islamic philosopher who basically invented what we would now call the social sciences" Ibn Khaldun was a Tunisian historian and philosopher who is considered one of the greatest scholars of the Middle Ages. He is known for his influential work on the history and sociology of the Arab world, and is considered a pioneer in the field of historiography.'
-    image1="\Tun_App\images\Tunisia\ibn_khaldun.jpg"
-
-    title2 = "Ahmad Bey (1805-1855)"
-    subtitle2='Tunisian ruler, modernizer' 
-    description2='Ahmad Bey was the ruler of Tunis from 1837 to 1855. He is known for modernizing Tunisian society and government, and for promoting education and scientific research. He was responsible for the abolition of slavery in Tunisia in 1846.'
-    image2="\Tun_App\images\Tunisia\Ahmed_I_Bey.jpg"
-
-    title3 = "Habib Bourguiba(1903-2000)"
-    subtitle3='Tunisian president, modernizer' 
-    description3="Habib Bourguiba was the first President of Tunisia and served from 1957 to 1987. He is known for leading the country to independence from France and for implementing social and economic reforms, including the promotion of education and the advancement of women's rights."
-    image3="\Tun_App\images\Tunisia\Habib_Bourguiba.jpg"
-    />
-    <PersonTable
-    title1 = "Tahar Haddad (1898-1934)"
-    subtitle1='Tunisian writer, nationalist' 
-    description1='Tahar Haddad was a Tunisian writer and intellectual who was an important figure in the Tunisian nationalist movement. He is known for his contributions to Tunisian literature and for his advocacy for Tunisian independence.'
-    image1="\Tun_App\images\Tunisia\Tahar_Haddad.jpg"
-
-    title2 = "Tewhida Ben Sheikh(1909-2010)"
-    subtitle2='Pioneering Female Tunisian Doctor' 
-    description2="Dr. Tewhida Ben Sheikh was a pioneering physician in Tunisia, particularly in the fields of contraception and abortion access. She was the first modern Tunisian woman to become a doctor, and her work has had a lasting impact on women's healthcare in the country."
-    image2="\Tun_App\images\Tunisia\Tawhida_Ben_Cheikh.jpg"
-
-    title3 = "Aboul-Qacem Echebbi (1909–1934)"
-    subtitle3='Tunisian poet, nationalist' 
-    description3="Aboul-Qacem Echebbi was a Tunisian poet and nationalist who played a significant role in the country's fight for independence from French colonial rule. He is known for his powerful and moving poetry that inspired Tunisians to fight for their freedom and dignity. Echebbi is remembered as a national hero and a symbol of Tunisian resistance."
-    image3="\Tun_App\images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
-    />
 
     <h1 className='title'> Major historical sites and landmarks: </h1>
 
@@ -127,6 +92,47 @@ return (
         subtitle='"Overthrowing the old regime"' 
         description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
         image="\Tun_App\images\Tunisia\Hrevolution.png" />
+
+        
+    <h1 className='title'> Important historical figures: </h1>
+
+    <TopBar />
+    <div className="image-container">
+        <img src="\Tun_App\images\Tunisia\HanaMain2.png" style={{ width: '100%'}} />
+    </div>
+    <PersonTable
+    title1 = "Ibn Khaldun (1332-1406)"
+    subtitle1='Arab historian, philosopher' 
+    description1='"a 14th-century Islamic philosopher who basically invented what we would now call the social sciences" Ibn Khaldun was a Tunisian historian and philosopher who is considered one of the greatest scholars of the Middle Ages. He is known for his influential work on the history and sociology of the Arab world, and is considered a pioneer in the field of historiography.'
+    image1="\Tun_App\images\Tunisia\ibn_khaldun.jpg"
+
+    title2 = "Ahmad Bey (1805-1855)"
+    subtitle2='Tunisian ruler, modernizer' 
+    description2='Ahmad Bey was the ruler of Tunis from 1837 to 1855. He is known for modernizing Tunisian society and government, and for promoting education and scientific research. He was responsible for the abolition of slavery in Tunisia in 1846.'
+    image2="\Tun_App\images\Tunisia\Ahmed_I_Bey.jpg"
+
+    title3 = "Habib Bourguiba(1903-2000)"
+    subtitle3='Tunisian president, modernizer' 
+    description3="Habib Bourguiba was the first President of Tunisia and served from 1957 to 1987. He is known for leading the country to independence from France and for implementing social and economic reforms, including the promotion of education and the advancement of women's rights."
+    image3="\Tun_App\images\Tunisia\Habib_Bourguiba.jpg"
+    />
+    <PersonTable
+    title1 = "Tahar Haddad (1898-1934)"
+    subtitle1='Tunisian writer, nationalist' 
+    description1='Tahar Haddad was a Tunisian writer and intellectual who was an important figure in the Tunisian nationalist movement. He is known for his contributions to Tunisian literature and for his advocacy for Tunisian independence.'
+    image1="\Tun_App\images\Tunisia\Tahar_Haddad.jpg"
+
+    title2 = "Tewhida Ben Sheikh(1909-2010)"
+    subtitle2='Pioneering Female Tunisian Doctor' 
+    description2="Dr. Tewhida Ben Sheikh was a pioneering physician in Tunisia, particularly in the fields of contraception and abortion access. She was the first modern Tunisian woman to become a doctor, and her work has had a lasting impact on women's healthcare in the country."
+    image2="\Tun_App\images\Tunisia\Tawhida_Ben_Cheikh.jpg"
+
+    title3 = "Aboul-Qacem Echebbi (1909–1934)"
+    subtitle3='Tunisian poet, nationalist' 
+    description3="Aboul-Qacem Echebbi was a Tunisian poet and nationalist who played a significant role in the country's fight for independence from French colonial rule. He is known for his powerful and moving poetry that inspired Tunisians to fight for their freedom and dignity. Echebbi is remembered as a national hero and a symbol of Tunisian resistance."
+    image3="\Tun_App\images\Tunisia\Abo_Al_Qassim_Al_Shabbi.jpg"
+    />
+
 
 </div>  
 

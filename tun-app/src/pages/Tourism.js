@@ -31,12 +31,12 @@ return (
         image="\Tun_App\images\Tunisia\Ras_Rmall_Island_Djerba_Houmt_Souk_Tunisia.jpg"
         title={"Djerba"}
         Height={""}
-        description={"a Roman amphitheater in El Djem"}/>
+        description={"known as the island of dreams"}/>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\sidi_bousaid.jpg"
-        title={"Carthage"}
+        title={"Sidi Bou Said"}
         Height={""}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        description={"Idyllic seaside town with breathtaking Mediterranean views"}/>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\bardo-museum.jpg"
         title={"The Bardo Museum"}
@@ -44,9 +44,9 @@ return (
         description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
         <RoundImageCard  
         image="\Tun_App\images\Tunisia\Chott-El-Jerid-Star-Wars-Film-Sets-in-Tunisia.jpg"
-        title={"The Bulla Regia"}
+        title={"Chott El Jerid"}
         Height={""}
-        description={"a Roman archaeological site in Jendouba"}/>
+        description={'endorheic salt lake also a "Star Wars Film Set"'}/>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\parc-el-feija20.jpg"
         title={"El Feidja National Park"}
@@ -74,7 +74,34 @@ return (
       Activities include horseback riding, camel riding, wine tasting, olive harvesting, and mountain trekking. 
       Visiting museums, archaeological sites, and Berber villages will immerse you in Tunisia’s rich history and cultural diversity."
       image="\Tun_App\images\Tunisia\alternative_tourism_tn.jpg"/>
+      <h1 className='title'> Food and culinary traditions: </h1>
 
+    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"22vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh", gap: "2vw"}}>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\slataMechwia.jpg"
+        title={"starters"}
+        description={"Grilled Salad/ Slata mechwia"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\hrisa.jpg"
+        title={"starters"}
+        description={"Harissa with Olive oil "}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\couscous-viande.jpg"
+        title={"main plate"}        
+        description={"coucous (coscsi)"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\mloukhia.jpg"
+        title={"main plate"}        
+        description={"mloukhia"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\lablebi.jpg"
+        title={"street food"}       
+        description={"Lablebi"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\brik.jpg"
+        title={"street food"}        
+        description={"Brik"}/>
+    </div>
 </div>  
 
 );
