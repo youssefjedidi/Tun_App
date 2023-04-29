@@ -17,6 +17,12 @@ function History() {
 return (
 <div> 
     <TopBar />
+    
+    <div className='sizes'>
+        <a>website true sizes are obtimizied on landscape mode</a>
+        <img src="\Tun_App\images\Tunisia\screen_rot.png"/>
+    </div>
+
     <div className="image-container">
         <img src="\Tun_App\images\Tunisia\HistoryMain.png" style={{ width: '100%'}} />
     </div>
@@ -98,7 +104,7 @@ return (
 
     <TopBar />
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\HanaMain2.png" style={{ width: '100%'}} />
+        <img src="\Tun_App\images\Tunisia\HanaMain2 .png" style={{ width: '100%'}} />
     </div>
     <PersonTable
     title1 = "Ibn Khaldun (1332-1406)"

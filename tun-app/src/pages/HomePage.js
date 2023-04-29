@@ -15,6 +15,10 @@ function HomePage() {
 return (
 <div>
   <TopBar />
+  <div className='sizes'>
+    <a>website true sizes are obtimizied on landscape mode</a>
+    <img src="\Tun_App\images\Tunisia\screen_rot.png"/>
+  </div>
     <div className="image-container">
         <img src="\Tun_App\images\Tunisia\tun3.png" alt="image" style={{ width: '100%' }} />
         <div className="text-overlay">

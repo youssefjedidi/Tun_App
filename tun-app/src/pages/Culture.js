@@ -18,6 +18,11 @@ return (
 <div> 
     <TopBar />
     
+    <div className='sizes'>
+        <a>website true sizes are obtimizied on landscape mode</a>
+        <img src="\Tun_App\images\Tunisia\screen_rot.png"/>
+    </div>
+    
     <div className="image-container">
         <img src="\Tun_App\images\Tunisia\tunisiaCv6.png" style={{ width: '100%'}} />
     </div>
