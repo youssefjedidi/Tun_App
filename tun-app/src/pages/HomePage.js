@@ -20,7 +20,7 @@ return (
     <img src="\Tun_App\images\Tunisia\screen_rot.png"/>
   </div>
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\tun4.png" alt="image" style={{ width: '100%' }} />
+        <img src="\Tun_App\images\Tunisia\tun6.png" alt="image" style={{ width: '100%' }} />
         <div className="text-overlay">
           <p >Tunisia is a muslim country located in North Africa, on the Mediterranean coast. It is a democratic republic with a diverse economy and a population of around 11 million people. The official language is Arabic, but French is also widely spoken.
           Tunis is the capital city, and it is known for its rich cultural heritage and vibrant atmosphere. 
