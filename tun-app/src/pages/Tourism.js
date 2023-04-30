@@ -32,7 +32,7 @@ return (
         image="\Tun_App\images\Tunisia\douz.jpg"
         title={"douz"}
         Height={""}
-        description={"a mosque and UNESCO World Heritage Site in Kairouan"}/>
+        description={"Tunisian town, gateway to Sahara"}/>
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\Ras_Rmall_Island_Djerba_Houmt_Souk_Tunisia.jpg"
         title={"Djerba"}
