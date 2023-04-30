@@ -86,7 +86,7 @@ return (
         subtitle='"Tunisia under Ottoman rule."' 
         description="In 1534, Tunisia became a province of the Ottoman Empire, which was a major political and cultural force in the region at the time. 
         The Ottoman period had a significant impact on Tunisian culture and society, and many elements of Ottoman culture and influence can still be seen in Tunisia today."
-        image="\Tun_App\images\Tunisia\Hottoman.jpg" />
+        image="\Tun_App\images\Tunisia\mourad_bey.jpg" />
     <SlidePR 
       title="Independence (1956)" 
       subtitle="''Tunisia's journey to independence''"
