@@ -104,7 +104,7 @@ return (
 
     <TopBar />
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\HanaMain2.png" style={{ width: '100%'}} />
+        <img src="\Tun_App\images\Tunisia\HanaMain3.png" style={{ width: '100%'}} />
     </div>
     <PersonTable
     title1 = "Ibn Khaldun (1332-1406)"
