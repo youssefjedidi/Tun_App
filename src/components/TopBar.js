@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import './TopBar.css';
-import {Link} from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function TopBar() {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     function handleScroll() {
@@ -23,23 +24,22 @@ function TopBar() {
 
   return (
     <nav className={scrolled ? 'top-bar scrolled' : 'top-bar'}>
-      
       <ul>
-        <img src="images/Tunisia/tnnc.png" alt="Tunisia"  className="logo" ></img>
+        <img src="/Tun_App/images/Tunisia/tnnc.png" alt="Tunisia" className="logo"></img>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>
         </li>
         <li>
-          <Link to="/tourism">Tourism</Link>
+          <Link to="/tourism" className={location.pathname === "/tourism" ? "active" : ""}>Tourism</Link>
         </li>
         <li>
-          <Link to="/history">History</Link>
+          <Link to="/history" className={location.pathname === "/history" ? "active" : ""}>History</Link>
         </li>
         <li>
-          <Link to="/culture">Culture</Link>
+          <Link to="/culture" className={location.pathname === "/culture" ? "active" : ""}>Culture</Link>
         </li>
-        <li>
-          <Link to="/technology">Technology and Research</Link>
+        <li style={{display:"none"}}>
+          <Link to="/technology" className={location.pathname === "/technology" ? "active" : ""}>Technology and Research</Link>
         </li>
       </ul>
     </nav>

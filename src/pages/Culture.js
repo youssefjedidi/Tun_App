@@ -1,0 +1,178 @@
+import React from 'react';
+
+import TopBar from '../components/TopBar';
+import SlidePL from '../components/SlidePL';
+import SlidePR from '../components/SlidePR';
+import Container from '../components/Container';
+import ImageCard from '../components/ImageCard';
+import RoundImageCard from '../components/RoundImageCard';
+import Personality from '../components/Personality';
+
+import './Home.css';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';  
+
+function Culture() {
+    document.body.style.backgroundColor = "#FBF0D3"
+return (
+<div> 
+    <TopBar />
+    
+    <div className='sizes'>
+        <a>website true sizes are obtimizied on landscape mode</a>
+        <img src="\Tun_App\images\Tunisia\screen_rot.png"/>
+    </div>
+    
+    <div className="image-container">
+        <img src="\Tun_App\images\Tunisia\tunisiaCv6.png" style={{ width: '100%'}} />
+    </div>
+
+    <Container
+    title='"Overview of Tunisian Culture"'
+    image='\Tun_App\images\Tunisia\hhh.jpg'
+    description="Tunisia is a land rich in cultural diversity, with a unique blend of indigenous  Berber, Arab, and Mediterranean influences that can be explored through its art, literature, sports, and food. 
+      From traditional crafts such as ceramics and textiles to the diverse range of genres found in Tunisian literature, there is always something new to discover in Tunisian culture. 
+      And when it comes to food, Tunisian cuisine is a true reflection of the country's diverse cultural influences, with dishes like couscous and tajine that are sure to satisfy even the most discerning palate. 
+      Tunisian culture is also shaped by the dominant religion of Islam and by the achievements of sports figures like Mohamed Ben Rehaiem and Ons Jabeur. 
+      Experience the vibrant, colorful culture of Tunisia – a culture that is truly one of a kind."
+      />
+
+    <h1 className='title'> Art and architecture: </h1>
+
+    <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
+        title={"medina of tunis"}
+        Height={"40vh"}
+        description={"The Bardo Museum's crown jewel is this mosaic of the Roman poet Virgil writing the eighth verse of the epic the Aeneid. Clio, the muse of tragedy, and Melpomene, the muse of history, look on. Discovered in a private residence in Sousse, it is the only known mosaic of Virgil."}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
+        title={"medina of mahdia"}
+        Height={"45vh"}
+        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
+        title={"medina of sfax"}
+        Height={"50vh"}
+        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_sousse.jpg"
+        title={"medina of sousse"}
+        Height={"45vh"}
+        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
+        title={"medina of kairouan"}
+        Height={"40vh"}
+        description={"a Roman archaeological site in Jendouba"}/>
+    </div>
+    
+    <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
+        title={"medina of tunis"}
+        Height={"40vh"}
+        description={"The Bardo Museum's crown jewel is this mosaic of the Roman poet Virgil writing the eighth verse of the epic the Aeneid. Clio, the muse of tragedy, and Melpomene, the muse of history, look on. Discovered in a private residence in Sousse, it is the only known mosaic of Virgil."}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
+        title={"medina of mahdia"}
+        Height={"45vh"}
+        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
+        title={"medina of sfax"}
+        Height={"50vh"}
+        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_sousse.jpg"
+        title={"medina of sousse"}
+        Height={"45vh"}
+        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
+        title={"medina of kairouan"}
+        Height={"40vh"}
+        description={"a Roman archaeological site in Jendouba"}/>
+    </div>
+    
+
+    <h1 className='title'> Religion, Literature and language: </h1>
+    <SlidePR 
+      
+      subtitle='"Tunisian Heritage: From Ancient Times to the Present Day"'
+      description="Tunisia is a country with a rich and diverse cultural heritage that reflects its long history of interactions with different civilizations and peoples.
+      The official language of Tunisia is Arabic, which is also the language of Quraan, islam is the dominant religion in the country. 
+      According to the 2014 constitution, Tunisia is a free and democratic republic that recognizes Islam as its state religion, but also guarantees freedom of conscience and belief for all citizens.
+      Tunisia also has a distinguished literary tradition that spans from ancient times to the present day, producing renowned poets, writers, scholars and thinkers who have influenced Arabic literature and culture as well as world literature."
+      image="\Tun_App\images\Tunisia\Ez_Zitouna-mosque.jpg"/>
+
+    <SlidePL
+        
+        subtitle='"Tunisian Literature: A Reflection of the Country’s Past and Present or A Rich and Diverse Legacy"' 
+        description="Tunisia has a rich literary tradition that spans centuries.
+         The country has produced many notable writers and poets who have contributed to the Arabic literary canon.
+         Tunisian literature often reflects the country’s history and cultural heritage, with themes such as identity, nationalism, and social justice being common. 
+         In addition to Arabic, French is also widely used in Tunisian literature due to the country’s history as a French protectorate."
+        image="\Tun_App\images\Tunisia\CuktureBab.jpg" />
+
+    <h1 className='title'> Food and culinary traditions: </h1>
+
+    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"22vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh", gap: "2vw"}}>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\slataMechwia.jpg"
+        title={"starters"}
+        description={"Grilled Salad/ Slata mechwia"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\hrisa.jpg"
+        title={"starters"}
+        description={"Harissa with Olive oil "}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\couscous-viande.jpg"
+        title={"main plate"}        
+        description={"coucous (coscsi)"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\mloukhia.jpg"
+        title={"main plate"}        
+        description={"mloukhia"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\lablebi.jpg"
+        title={"street food"}       
+        description={"Lablebi"}/>
+        <RoundImageCard 
+        image="\Tun_App\images\Tunisia\brik.jpg"
+        title={"street food"}        
+        description={"Brik"}/>
+    </div>
+
+    <h1 className='title'>sports and celebrities: </h1>
+    <Personality
+        title='Ons jabeur' 
+        description="Ons Jabeur is a Tunisian professional tennis player who has achieved a career-high ranking of No. 2 in the Women's Tennis Association (WTA). 
+        She is the first Arab woman to reach a Grand Slam quarterfinal and the first and only muslim and Arab player, male or female, to reach a Grand Slam final in singles. 
+        Jabeur has won three singles titles on the WTA Tour and has also had success on the ITF Women's Circuit. 
+        In 2021, she became the first Arab woman to win a WTA Tour title and in 2022, she won her biggest title to date at the Madrid Open and reached her first major final at Wimbledon."
+        image="\Tun_App\images\Tunisia\Ons_jabeur.jpg" 
+        num="01"/>
+    <Personality
+        title='Hammadi Agrebi' 
+        description='Hamadi Al-Agrebi (March 20, 1951 - August 21, 2020) whose real name is Mohamed Ben Rehaiem, is one of the best players in the history of the Sfaxien club and the Tunisian national team. 
+        He won the Tunisian championship with the Sfaxien club in 1978, 1981 and 1983. He is known as the "magician of the generations". 
+        He played with the Sfaxien club in the 1970s and contributed to winning many championships and then played with Al-Nassr in Saudi Arabia after the 1978 World Cup finals. He retired from football in 1989 '
+        image="\Tun_App\images\Tunisia\hammadi.png" 
+        num="02"/>
+    <Personality
+        title='Osema mallouli' 
+        description='Oussama Mellouli is a Tunisian swimmer and Olympic medalist who has won a total of three Olympic medals (2008, 2012(2)), 
+        including two gold medals. He is the first person from Africa to win an Olympic medal in swimming, 
+        and he is also the first person to win medals in both the pool and open water at the same Olympic Games. 
+        Mellouli has also won numerous medals at the World Championships and other international competitions.'
+        image="\Tun_App\images\Tunisia\Mellouli.jpg" 
+        num="03"/>
+
+</div>  
+
+);
+}
+
+export default Culture;
+

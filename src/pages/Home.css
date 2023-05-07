@@ -1,14 +1,54 @@
+@media screen and (orientation: portrait) 
+{
+    .sizes 
+    {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding-top: auto;
+        padding-bottom: auto;
+        z-index: 1010;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .sizes img {
+        height: 10vh;
+        width: 10vw;
+    }
+}
+@media screen and (orientation: landscape) {
+    .sizes 
+    {
+        display: none;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------*/
 .image-container 
 {
+    margin-top: 5vh;
     position: relative;
+}
+.title
+{
+    font-size:3vw;
+    color: #8E4A00;
+    padding-left: 3vw;
+    
 }
 
 div
 {
     background-color:#FBF0D3 ;
-    
-    width: 100vw;
-}   
+    overflow: hidden;
+    /*width: 100%;   */
+} 
+
+  
 
 .text-overlay 
 {
@@ -19,37 +59,52 @@ div
     bottom: 0;
     text-size-adjust:unset;
     background-color: rgba(255, 255, 255, 0);
-    color: #7D7D7D;
-    display: flex;
+    color: #242323;
+    display: none;
     flex-direction: column;
     align-items: left;
     justify-content: center;
     text-align: justify;
+    font-size: 1.5vw;
 }
 
 
 /*------------- intro container ---------------------- */
+* {
+  box-sizing: border-box;
+}
 .intro-container
 {
     background-color: #FDF6D8;
-    border-color: black;
+    border-color: #e0dbc2;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-    padding: 5vw;
+    
+    padding: 1.5vw;
     
     margin: auto;
-    /*margin-top: 2rem;*/
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 
     position: relative;
     max-width: 70vw;
-    max-height: 15rem;
+    /*max-height: 15rem;*/
+
     display: flex;
     list-style: none;
+    
+  
+    /*border: 1px solid rgb(255 255 255 / 5%);*/
+    border-radius: 1.5rem;
+    
 }
 .intro-container img{
     border-radius: 100px;
     /*max-width:10rem;*/
-    max-height: 40vh;
+    justify-self: center;
+    align-self: center;
+
+    max-height: 20vw;
     aspect-ratio: 1.8 / 2.5;
 }
 .intro-container ul{
@@ -62,32 +117,87 @@ div
 
     text-align: justify;
     max-width: 60vw;
-    padding: 5%;
-    margin: 3vw;
+    padding: 2vw;
+    /*margin: 3vw;*/
 }
 .intro-container ul p{
     color: #312f2f;
+    font-size: 1.5vw;
 }
+.intro-container ul h2{
+    font-size: 2vw;
+}
+
+
+.intro-container:after,
+.intro-container:before {
+  content: "";
+  height: 15vh;
+  width: 0.1vw;
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    #B32305,
+    transparent
+  );
+  opacity: 0;
+}
+
+.intro-container:after {
+  top: 85%;
+  right: 0px;
+  transition: top 600ms ease, opacity 600ms ease;
+  transition-property: top, opacity;
+}
+
+.intro-container:hover:after {
+  top: 15%;
+  opacity: 1;
+}
+
+.intro-container:before {
+  top: 0%;
+  left: 0.5px;
+  transition: top 600ms ease, opacity 600ms ease;
+  transition-property: top, opacity;
+}
+
+.intro-container:hover:before {
+  top: 65%;
+  opacity: 1;
+}
+
 
 /*------------- content ---------------------- */
 .content{
     display:flex;
-    list-style: none;
-    margin: 0;
+    /*list-style: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;*/
+    gap: 5vw;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 .content img{
-    /*display:block;*/
-    flex-direction: column;
+    /*display:;
+    /*flex-direction: column;
 
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
+    justify-self: center;
+    align-self: center;
 
-    vertical-align: middle;
+    /*vertical-align: middle;*/
+    object-fit: cover;
 
-    /*height:50vh;*/
-    width: 50vw;
-    flex-basis:50%;
-    padding: 3vw;
+    aspect-ratio: 3 / 2;
+    width: 40vw;
+    /*max-height:50vh;*
+    
+    padding: 3vw;*/
+
 }
 .content ul{
     display: flex;
@@ -97,18 +207,22 @@ div
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+    width: 55vw;
     text-align: justify;
-    max-height:50vh;
-    padding: 5vw;
+    /*max-height:50vh;*/
+    padding: 0vw;
 }
 .content ul a{
 color: #8E4A00;
 font-weight: 600;
-font-size: 1.5rem;
+font-size: 2vw;
 }
 .content ul p{
     color: #7D7D7D;
-    font-size: 1rem;
+    font-size: 1.5vw;
+    }
+.content ul h2{
+    font-size: 2vw;
     }
 .content ul Button{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -122,11 +236,12 @@ font-size: 1.5rem;
     border-color: none;
     text-decoration: none;
 }
+
 /* ----------------Person------------------------------------ */
 
 .Person td
 {
-    padding: 5vw;
+    padding: 3vw;
     
     /*margin: 2rem;
     grid-template-columns: repeat(3, 30%);*/
@@ -152,19 +267,23 @@ font-size: 1.5rem;
     margin-right: auto;
     
     object-fit: cover;
-    width: 7rem; 
-    height: 7rem;
+    width: 8vw; 
+    height: 8vw;
     border-radius: 100px;
     border-color: none;
 }
-
+.Person p{
+    text-align: justify;
+}
 .Person
 {
-    text-align: justify;
+    text-align: center;
+    text-justify:distribute-all-lines;  
+    font-size: 1.2vw;
     margin: 3rem;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 /* ----------------Block------------------------------------ */
@@ -176,6 +295,9 @@ font-size: 1.5rem;
     border-radius: 30px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     padding: 2rem;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
     
     margin: 2rem;
     /*margin-top: 2rem;*/
@@ -183,10 +305,97 @@ font-size: 1.5rem;
     grid-template-columns: repeat(3, 30%);
 
     display: inline-block;
-
+    
     position: relative;
-    width: 15rem;
-    height: 15rem;
+    width: 28vw;
+    height: 32vh;
     /*display: flex;*/
     list-style: none;
+}
+.Block_image
+{
+    object-fit: cover;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);*/
+    /*padding: 2rem;*/
+    
+    margin: 0.5vw;
+    /*margin-top: 2rem;*/
+
+    /*grid-template-columns: repeat(3, 30%);*/
+    position: relative;
+
+    flex-basis: 30vw;
+    width: 30vw;
+    height: 38vh;
+    /*display: flex;*/
+
+}
+
+.tech
+{
+    position:relative;
+    float:left;
+    width: 100vw;
+
+    display: flex;
+    overflow: hidden;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+}
+.tech img
+{
+    object-fit: cover;
+    width: 100vw;
+    aspect-ratio: 2/0.75;
+    justify-self: center;
+    align-self: center;
+}
+.mask
+{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    aspect-ratio: 2/0.75;
+    padding-left: 5vw;
+    padding-top: 5vh;
+    padding-right: 60vw;
+    /*padding-bottom: auto;*/
+
+    font-size: 1.5vw;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.mask h1{
+    font-weight: 1000;
+    font-size: 2vw;
+}
+.mask button
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 1.5vw;
+    font-weight: 500;
+    color:#B32305;
+    display: inline-block;
+    background-color:#FBF0D3;
+    width: 20%;
+    /*min-height: 50%;*/
+    border-radius: 30px;
+    border-color: none;
+    text-decoration: none;
+    padding: auto;
 }

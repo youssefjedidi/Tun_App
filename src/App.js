@@ -6,10 +6,12 @@ import Tourism from './pages/Tourism';
 import History from './pages/History';
 import Culture from './pages/Culture';
 import TnR from './pages/TnR';
+import ScrollToTop from './ScrollToTop' ;
 
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <Switch>
         <Route path="/" exact component ={HomePage}/>
         <Route path="/tourism" component={Tourism} />
