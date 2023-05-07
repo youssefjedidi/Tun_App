@@ -41,32 +41,59 @@ return (
 
     <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
-        image="\Tun_App\images\Tunisia\virgil_bardo1.jpg"
-        title={"mosaic of Virgil"}
+        image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
+        title={"medina of tunis"}
         Height={"40vh"}
         description={"The Bardo Museum's crown jewel is this mosaic of the Roman poet Virgil writing the eighth verse of the epic the Aeneid. Clio, the muse of tragedy, and Melpomene, the muse of history, look on. Discovered in a private residence in Sousse, it is the only known mosaic of Virgil."}/>
         <ImageCard 
-        image="\Tun_App\images\Tunisia\bardo_diane_chasseresse-1.jpg"
-        title={"Diane the Huntress"}
+        image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
+        title={"medina of mahdia"}
         Height={"45vh"}
         description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
         <ImageCard 
-        image="\Tun_App\images\Tunisia\Carthage-788x537.png"
-        title={"Carthage"}
+        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
+        title={"medina of sfax"}
         Height={"50vh"}
         description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
         <ImageCard 
-        image="\Tun_App\images\Tunisia\bardo-museum.jpg"
-        title={"The Bardo Museum"}
+        image="\Tun_App\images\Tunisia\medina_sousse.jpg"
+        title={"medina of sousse"}
         Height={"45vh"}
         description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
         <ImageCard 
-        image="\Tun_App\images\Tunisia\bulla-regia.jpg"
-        title={"The Bulla Regia"}
+        image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
+        title={"medina of kairouan"}
         Height={"40vh"}
         description={"a Roman archaeological site in Jendouba"}/>
     </div>
     
+    <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
+        title={"medina of tunis"}
+        Height={"40vh"}
+        description={"The Bardo Museum's crown jewel is this mosaic of the Roman poet Virgil writing the eighth verse of the epic the Aeneid. Clio, the muse of tragedy, and Melpomene, the muse of history, look on. Discovered in a private residence in Sousse, it is the only known mosaic of Virgil."}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
+        title={"medina of mahdia"}
+        Height={"45vh"}
+        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
+        title={"medina of sfax"}
+        Height={"50vh"}
+        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_sousse.jpg"
+        title={"medina of sousse"}
+        Height={"45vh"}
+        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+        <ImageCard 
+        image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
+        title={"medina of kairouan"}
+        Height={"40vh"}
+        description={"a Roman archaeological site in Jendouba"}/>
+    </div>
     
 
     <h1 className='title'> Religion, Literature and language: </h1>
