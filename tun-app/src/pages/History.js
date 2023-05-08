@@ -24,7 +24,7 @@ return (
     </div>
 
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\HistoryMain.png" style={{ width: '100%'}} />
+        <img src="\Tun_App\images\Tunisia\el_jem.jpg" style={{ width: '100%'}} />
     </div>
 
     <h1 className='title'> Major historical sites and landmarks: </h1>

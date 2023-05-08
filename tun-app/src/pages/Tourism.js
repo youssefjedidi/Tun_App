@@ -113,10 +113,8 @@ return (
         image="\Tun_App\images\Tunisia\sidi_bouhdid.jpg"
         title="Sidi Bouhdid Cafe (Hammamet)"
         Height="45vh"
-        description="Sidi Bouhdid Cafe is a charming beachfront cafe located in Hammamet. With stunning views of 
-        the Mediterranean Sea, this cafe is the perfect spot to relax and enjoy a cup of coffee or tea. 
-        The cafe has a casual and laid-back atmosphere that makes it a popular destination for both locals and tourists. 
-        If you're looking for a beautiful and peaceful place to enjoy a cup of coffee or tea in Hammamet, Sidi Bouhdid Cafe is a great choice."
+        description="Sidi Bouhdid Cafe in Hammamet is a charming beachfront spot to enjoy coffee or tea with stunning views of the Mediterranean Sea. 
+        Its laid-back atmosphere makes it a popular destination for both locals and tourists."
         />
         <ImageCard 
         image="\Tun_App\images\Tunisia\el_ali.jpg"
