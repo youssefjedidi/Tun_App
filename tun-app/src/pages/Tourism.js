@@ -80,7 +80,7 @@ return (
       Visiting museums, archaeological sites, and Berber villages will immerse you in Tunisia’s rich history and cultural diversity."
       image="\Tun_App\images\Tunisia\alternative_tourism_tn.jpg"/>
       
-      <h1 className='title'> Food and culinary traditions: </h1>
+      <h1 className='title'>Tunisian Cuisine Chronicles: </h1>
     
       <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
