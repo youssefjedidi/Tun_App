@@ -42,57 +42,93 @@ return (
     <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
-        title={"medina of tunis"}
-        Height={"40vh"}
-        description={"The Bardo Museum's crown jewel is this mosaic of the Roman poet Virgil writing the eighth verse of the epic the Aeneid. Clio, the muse of tragedy, and Melpomene, the muse of history, look on. Discovered in a private residence in Sousse, it is the only known mosaic of Virgil."}/>
+        title="medina of tunis"
+        Height="40vh"
+        description="Located in the heart of the capital city, the Medina of Tunis is a UNESCO 
+        World Heritage site and one of the largest and most well-preserved medinas in North Africa. 
+        It boasts a maze-like network of narrow streets, historic buildings, traditional markets, 
+        and numerous cultural and religious landmarks."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
-        title={"medina of mahdia"}
-        Height={"45vh"}
-        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
+        title="medina of mahdia"
+        Height="45vh"
+        description="Situated on the east coast of Tunisia, the Medina of Mahdia is a picturesque old 
+        town surrounded by walls and overlooking the Mediterranean Sea. It is famous for its vibrant fishing port, 
+        beautiful beaches, and well-preserved Islamic architecture, including the ancient Fatimid port and the Great Mosque."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_sfax.jpg"
-        title={"medina of sfax"}
-        Height={"50vh"}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        title="medina of sfax"
+        Height="50vh"
+        description="Located in the south-central part of Tunisia, the Medina of Sfax is 
+        a bustling commercial center that dates back to the 9th century. It is known for 
+        its bustling markets, colorful souks, and imposing fortifications, including the 
+        Bab Bhar gate and the Kasbah."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_sousse.jpg"
-        title={"medina of sousse"}
-        Height={"45vh"}
-        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+        title="medina of sousse"
+        Height="45vh"
+        description="Situated on the central-east coast of Tunisia, the Medina of Sousse 
+        is another UNESCO World Heritage site that dates back to the 9th century. It features 
+        a labyrinth of narrow streets, historic buildings, souks, and religious sites, such as 
+        the Grand Mosque and the Ribat of Sousse."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
-        title={"medina of kairouan"}
-        Height={"40vh"}
-        description={"a Roman archaeological site in Jendouba"}/>
+        title="medina of kairouan"
+        Height="40vh"
+        description="Kairouan is home to one of the most ancient and important medinas in Tunisia. 
+        It is known for its impressive Great Mosque, numerous madrasas, and the beautiful Aghlabid pools. 
+        The medina also boasts a rich cultural heritage, including traditional crafts such as carpet weaving and pottery."
+        />
     </div>
-    
+
     <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
-        title={"medina of tunis"}
-        Height={"40vh"}
-        description={"The Bardo Museum's crown jewel is this mosaic of the Roman poet Virgil writing the eighth verse of the epic the Aeneid. Clio, the muse of tragedy, and Melpomene, the muse of history, look on. Discovered in a private residence in Sousse, it is the only known mosaic of Virgil."}/>
+        title="medina of tunis"
+        Height="40vh"
+        description="Located in the heart of the capital city, the Medina of Tunis is a UNESCO 
+        World Heritage site and one of the largest and most well-preserved medinas in North Africa. 
+        It boasts a maze-like network of narrow streets, historic buildings, traditional markets, 
+        and numerous cultural and religious landmarks."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
-        title={"medina of mahdia"}
-        Height={"45vh"}
-        description={"This colorful mosaic panel represents Diane the Huntress. Wearing short clothes, boots and her hair held in a bun, she appears poised to shoot a gazelle that is quietly grazing acacia leaves. "}/>
+        title="medina of mahdia"
+        Height="45vh"
+        description="Situated on the east coast of Tunisia, the Medina of Mahdia is a picturesque old 
+        town surrounded by walls and overlooking the Mediterranean Sea. It is famous for its vibrant fishing port, 
+        beautiful beaches, and well-preserved Islamic architecture, including the ancient Fatimid port and the Great Mosque."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_sfax.jpg"
-        title={"medina of sfax"}
-        Height={"50vh"}
-        description={"an ancient Phoenician city and a UNESCO World Heritage Site"}/>
+        title="medina of sfax"
+        Height="50vh"
+        description="Located in the south-central part of Tunisia, the Medina of Sfax is 
+        a bustling commercial center that dates back to the 9th century. It is known for 
+        its bustling markets, colorful souks, and imposing fortifications, including the 
+        Bab Bhar gate and the Kasbah."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_sousse.jpg"
-        title={"medina of sousse"}
-        Height={"45vh"}
-        description={"a museum of Roman mosaics and other artifacts in Tunis"}/>
+        title="medina of sousse"
+        Height="45vh"
+        description="Situated on the central-east coast of Tunisia, the Medina of Sousse 
+        is another UNESCO World Heritage site that dates back to the 9th century. It features 
+        a labyrinth of narrow streets, historic buildings, souks, and religious sites, such as 
+        the Grand Mosque and the Ribat of Sousse."
+        />
         <ImageCard 
         image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
-        title={"medina of kairouan"}
-        Height={"40vh"}
-        description={"a Roman archaeological site in Jendouba"}/>
+        title="medina of kairouan"
+        Height="40vh"
+        description="Kairouan is home to one of the most ancient and important medinas in Tunisia. 
+        It is known for its impressive Great Mosque, numerous madrasas, and the beautiful Aghlabid pools. 
+        The medina also boasts a rich cultural heritage, including traditional crafts such as carpet weaving and pottery."
+        />
     </div>
     
 
