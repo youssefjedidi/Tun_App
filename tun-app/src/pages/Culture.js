@@ -58,7 +58,7 @@ return (
         beautiful beaches, and well-preserved Islamic architecture, including the ancient Fatimid port and the Great Mosque."
         />
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
+        image="\Tun_App\images\Tunisia\medina_sfax1.jpg"
         title="medina of sfax"
         Height="50vh"
         description="Located in the south-central part of Tunisia, the Medina of Sfax is 
@@ -87,47 +87,44 @@ return (
 
     <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_tunis.jpeg"
-        title="medina of tunis"
+        image="\Tun_App\images\Tunisia\bardo_mosaics.jpg"
+        title="Bardo Museum"
         Height="40vh"
-        description="Located in the heart of the capital city, the Medina of Tunis is a UNESCO 
-        World Heritage site and one of the largest and most well-preserved medinas in North Africa. 
-        It boasts a maze-like network of narrow streets, historic buildings, traditional markets, 
-        and numerous cultural and religious landmarks."
+        description="The Bardo Museum in Tunis is home to the world's largest and most extensive collections 
+        of Roman mosaics. The museum's mosaic collection spans from the 2nd century BC to the 7th century AD 
+        and includes pieces from ancient Roman villas, Christian churches, and Byzantine basilicas."
         />
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_mahdia.jpg"
-        title="medina of mahdia"
+        image="\Tun_App\images\Tunisia\sidi_bou_said.jpg"
+        title="sidi bou said"
         Height="45vh"
-        description="Situated on the east coast of Tunisia, the Medina of Mahdia is a picturesque old 
-        town surrounded by walls and overlooking the Mediterranean Sea. It is famous for its vibrant fishing port, 
-        beautiful beaches, and well-preserved Islamic architecture, including the ancient Fatimid port and the Great Mosque."
+        description="Sidi Bou Said is a picturesque village located on a hill overlooking the Mediterranean Sea. 
+        The village is known for its blue and white houses, narrow streets, and stunning views. It is a popular destination 
+        for tourists and artists who come to capture the village's charm and beauty."
         />
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
-        title="medina of sfax"
+        image="\Tun_App\images\Tunisia\okba_kairouan.jpg"
+        title="Great Mosque of Kairouan"
         Height="50vh"
-        description="Located in the south-central part of Tunisia, the Medina of Sfax is 
-        a bustling commercial center that dates back to the 9th century. It is known for 
-        its bustling markets, colorful souks, and imposing fortifications, including the 
-        Bab Bhar gate and the Kasbah."
+        description="The Great Mosque of Kairouan is one of the oldest and most important Islamic buildings in the world. 
+        It was built in the 7th century AD and has been expanded and renovated several times over the centuries. The mosque 
+        is renowned for its architectural beauty and historical significance."
         />
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_sousse.jpg"
-        title="medina of sousse"
-        Height="45vh"
-        description="Situated on the central-east coast of Tunisia, the Medina of Sousse 
-        is another UNESCO World Heritage site that dates back to the 9th century. It features 
-        a labyrinth of narrow streets, historic buildings, souks, and religious sites, such as 
-        the Grand Mosque and the Ribat of Sousse."
+        image="\Tun_App\images\Tunisia\djerbahood.jpg"
+        title="Djerbahood"
+        Height="48vh"
+        description="Djerbahood is a street art project that took place in the town of Erriadh on the island of Djerba. 
+        More than 150 street artists from around the world were invited to paint the walls of the town, turning it into 
+        an open-air art gallery. The project aimed to promote cultural diversity and creativity."
         />
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_kairouan.jpg"
-        title="medina of kairouan"
+        image="\Tun_App\images\Tunisia\troglodyte_habitation.jpg"
+        title="troglodyte habitation of tataouine"
         Height="40vh"
-        description="Kairouan is home to one of the most ancient and important medinas in Tunisia. 
-        It is known for its impressive Great Mosque, numerous madrasas, and the beautiful Aghlabid pools. 
-        The medina also boasts a rich cultural heritage, including traditional crafts such as carpet weaving and pottery."
+        description="The troglodyte habitations of Tataouine are a series of underground houses that were carved into 
+        the rock by the Berber people centuries ago. The houses are built in a way that keeps them cool in the hot desert 
+        climate and they have become a popular tourist attraction in southern Tunisia."
         />
     </div>
     
