@@ -58,7 +58,7 @@ return (
         beautiful beaches, and well-preserved Islamic architecture, including the ancient Fatimid port and the Great Mosque."
         />
         <ImageCard 
-        image="\Tun_App\images\Tunisia\medina_sfax1.jpg"
+        image="\Tun_App\images\Tunisia\medina_sfax.jpg"
         title="medina of sfax"
         Height="50vh"
         description="Located in the south-central part of Tunisia, the Medina of Sfax is 
