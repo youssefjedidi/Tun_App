@@ -78,7 +78,7 @@ return (
     <SlidePR 
       title="Ez-zitouna University (737 CE)" 
       subtitle='"The oldest university in THE WORLD"' 
-      description="Ez-zitouna University, also known as the University of Ez-Zitouna, is the oldest university in THE WORLD in continuous operation.
+      description="Ez-zitouna University, also known as the University of Ez-Zitouna, is said to be the oldest university or madrasa in the world in continuous operation.
       It was founded in the 8th century CE and has played an important role in Tunisian education and intellectual life. The university is known for its Islamic studies programs and has educated many prominent scholars and religious leaders over the years.
       Despite the religion's dominance, in Madrasas students could learn about science, philosophy, mathematics, art, and many other subjects."
       image="\Tun_App\images\Tunisia\Hzitouna.jpg"

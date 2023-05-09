@@ -22,7 +22,7 @@ return (
     </div>
 
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\kairouan_Tunisia.jpg" style={{ width: '100%'}} />
+        <img src="\Tun_App\images\Tunisia\tourism_hill_byrsa.jpeg" style={{ width: '100%'}} />
     </div>
     
     <h1 className='title'> Major tourist attractions: </h1>

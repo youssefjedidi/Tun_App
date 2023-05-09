@@ -24,7 +24,7 @@ return (
     </div>
     
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\tunisiaCv6.png" style={{ width: '100%'}} />
+        <img src="\Tun_App\images\Tunisia\kairouan_Tunisia.jpg" style={{ width: '100%'}} />
     </div>
 
     <Container
