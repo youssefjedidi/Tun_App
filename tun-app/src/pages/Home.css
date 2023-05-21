@@ -226,7 +226,7 @@ font-size: 2vw;
     }
 .content ul Button{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    cursor: pointer;
     color: #FFFFFF;
     display: inline-block;
     background-color: #B32305;

@@ -1,5 +1,6 @@
 
 .image_card {
+    cursor: pointer;
     float:left;
     display:flex;
 
