@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>Tun_App</h1>
+    <h1>Tun_App: a website about Tunisia</h1>
 </div>
 Tun_App is a website about Tunisia built using React framework. It aims to showcase information about Tunisian history, culture, and tourism. The website is designed to provide insights into Tunisia for those who are unfamiliar with the country.
 
