@@ -26,7 +26,7 @@ return (
     </div>
     
     <h1 className='title'> Major tourist attractions: </h1>
-    <div style={{display:"flex", justifyContent: "center", width: "100vw", height:"27vw", marginLeft:"auto", marginRight:"auto" , marginTop:"5vh", marginBottom:"5vh", gap: "2vw"}}>
+    <div className='Rcardbox' >
         <RoundImageCard 
         image="\Tun_App\images\Tunisia\douz.jpg"
         title={"douz"}
@@ -85,25 +85,25 @@ return (
       
       <h1 className='title'>Tunisian Cuisine Chronicles: </h1>
     
-      <div style={{display:"flex", justifyContent: "center", width: "80vw", height: "60vh", margin:"auto" , marginTop:"5vh", marginBottom:"5vh"}}>
+      <div className='cardbox'>
         <ImageCard 
         image="\Tun_App\images\Tunisia\dar_el_jeld.jpg"
         title="Dar El Jeld (Tunis)"
-        Height="40vh"
+        
         description="Dar El Jeld is a traditional Tunisian restaurant located in the heart of the Tunis medina. 
         The restaurant offers an elegant setting and serves a range of Tunisian dishes, including couscous, brik, and seafood."
         />
         <ImageCard 
         image="\Tun_App\images\Tunisia\chouaib.jpg"
         title="Restaurant Chouaib (Sfax)"
-        Height="45vh"
+
         description="Restaurant Chouaib is a seafood restaurant located in the coastal city of Sfax. 
         The restaurant is renowned for its fresh seafood dishes, including grilled fish, calamari, and prawns."
         />
         <ImageCard 
         image="\Tun_App\images\Tunisia\el_fondouk.jpg"
         title="El Fondouk (Djerba)"
-        Height="50vh"
+
         description="El Fondouk is a charming traditional Tunisian restaurant located in Houmt Souk, Djerba. 
         Housed in a beautifully restored 17th-century building, the restaurant offers a range of authentic Tunisian 
         dishes in a warm and welcoming atmosphere. Diners can enjoy their meals in a lovely courtyard setting and 
@@ -112,19 +112,20 @@ return (
         <ImageCard 
         image="\Tun_App\images\Tunisia\sidi_bouhdid.jpg"
         title="Sidi Bouhdid Cafe (Hammamet)"
-        Height="45vh"
+   
         description="Sidi Bouhdid Cafe in Hammamet is a charming beachfront spot to enjoy coffee or tea with stunning views of the Mediterranean Sea. 
         Its laid-back atmosphere makes it a popular destination for both locals and tourists."
         />
         <ImageCard 
         image="\Tun_App\images\Tunisia\el_ali.jpg"
         title="El Ali (Tozeur)"
-        Height="40vh"
+ 
         description="El Ali is a traditional Tunisian restaurant located in the town of Tozeur in southern Tunisia. 
         The restaurant serves a range of local dishes, including couscous with lamb and vegetables, grilled meats, and tagine."
         />
     </div>
-
+    <div style={{position:"static"}}>
+    </div> 
 </div>  
 
 );
