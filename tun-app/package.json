@@ -17,13 +17,9 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
-    "web-vitals": "^2.1.4"
-=======
     "web-vitals": "^2.1.4",
 
     "homepage": "https://github.com/youssefjedidi/Tun_App/"
->>>>>>> 1d1a8cd (setup gh-pages)
   },
   "scripts": {
     "start": "react-scripts start",
