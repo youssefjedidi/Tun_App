@@ -1,0 +1,534 @@
+@media screen and (orientation: portrait) 
+{/*
+    .sizes 
+    {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        text-align: center;
+        padding-top: auto;
+        padding-bottom: auto;
+        z-index: 1010;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    .sizes img {
+        height: 10vh;
+        width: 10vw;
+    }*/
+    .sizes 
+    {
+        display: none;
+    }
+}
+@media screen and (orientation: landscape) {
+    .sizes 
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .s_c {
+        padding-top: 40px;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------*/
+.image-container 
+{
+    margin-top: 0rem;
+    position: relative;
+}
+.title
+{
+    font-size:2.5em;
+    color: #8E4A00;
+    padding-left: 1em;
+    
+}
+
+div
+{
+    background-color:#FBF0D3 ;
+    overflow: hidden;
+    /*width: 100%;   */
+}  
+
+.text-overlay 
+{
+    position: absolute;
+    top: 100rem;
+    left: 10%;
+    right: 55%;
+    bottom: 0;
+    text-size-adjust:unset;
+    background-color: rgba(255, 255, 255, 0);
+    color: #242323;
+    display: none;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+
+/*------------- intro container ---------------------- */
+* {
+  box-sizing: border-box;
+}
+.intro-container
+{
+    background-color: #FDF6D8;
+    border-color: #e0dbc2;
+    border-radius: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    
+    padding: 1.5em;
+    
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    position: relative;
+    max-width: 70em;
+    /*max-height: 15rem;*/
+
+    display: flex;
+    list-style: none;
+    
+  
+    /*border: 1px solid rgb(255 255 255 / 5%);*/
+    border-radius: 1.5rem;
+    
+}
+.intro-container img{
+    border-radius: 100px;
+    /*max-width:10rem;*/
+    justify-self: center;
+    align-self: center;
+
+    max-height: 20em;
+    aspect-ratio: 1.8 / 2.5;
+}
+.intro-container ul{
+    display: flex;
+    flex-direction: column;
+
+    align-items: right;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: justify;
+    max-width: 60em;
+    padding: 2em;
+    /*margin: 3vw;*/
+}
+.intro-container ul p{
+    color: #312f2f;
+    font-size: 1.5em;
+}
+.intro-container ul h2{
+    font-size: 2em;
+}
+
+
+.intro-container:after,
+.intro-container:before {
+  content: "";
+  height: 15rem;
+  width: 0.1em;
+  position: absolute;
+  background: linear-gradient(
+    transparent,
+    #B32305,
+    transparent
+  );
+  opacity: 0;
+}
+
+.intro-container:after {
+  top: 85%;
+  right: 0px;
+  transition: top 600ms ease, opacity 600ms ease;
+  transition-property: top, opacity;
+}
+
+.intro-container:hover:after {
+  top: 15%;
+  opacity: 1;
+}
+
+.intro-container:before {
+  top: 0%;
+  left: 0.5px;
+  transition: top 600ms ease, opacity 600ms ease;
+  transition-property: top, opacity;
+}
+
+.intro-container:hover:before {
+  top: 65%;
+  opacity: 1;
+}
+
+
+/*------------- content ---------------------- */
+.content{
+    display:flex;
+    /*list-style: none;
+    margin-top: 2vh;
+    margin-bottom: 2vh;*/
+    gap: 5em;
+    width: 90em;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.content img{
+    /*display:;
+    /*flex-direction: column;
+
+    justify-content: center;
+    align-items: center;*/
+    justify-self: center;
+    align-self: center;
+
+    /*vertical-align: middle;*/
+    object-fit: cover;
+
+    aspect-ratio: 3 / 2;
+    width: 40em;
+    /*max-height:50vh;*
+    
+    padding: 3vw;*/
+
+}
+
+.content ul{
+    display: flex;
+    flex-direction: column;
+
+    align-items: right;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 55em;
+    text-align: justify;
+    /*max-height:50vh;*/
+    padding: 0em;
+}
+.content ul a{
+color: #8E4A00;
+font-weight: 600;
+font-size: 2em;
+}
+.content ul p{
+    color: #7D7D7D;
+    font-size: 1.5em;
+    }
+.content ul h2{
+    font-size: 2em;
+    }
+.content ul Button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    color: #FFFFFF;
+    display: inline-block;
+    background-color: #B32305;
+    max-width: 200%;
+    min-height: 50%;
+    border-radius: 30px;
+    border-color: none;
+    text-decoration: none;
+}
+
+/* ----------------Person------------------------------------ */
+
+.Person td
+{
+    padding: 3em;
+    
+    /*margin: 2rem;
+    grid-template-columns: repeat(3, 30%);*/
+    
+    /*display: inline-block;
+    align-items: center;
+    position: relative;*/
+    vertical-align: top;
+    width: 20em;
+    /*height: 10rem;*/
+    /*display: flex;*/
+    
+}
+.Person table
+{
+    /*align-items: center;
+    justify-content: center;*/
+}
+.Person img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    object-fit: cover;
+    width: 8em; 
+    height: 8em;
+    border-radius: 100px;
+    border-color: none;
+}
+.Person p{
+    text-align: justify;
+}
+.Person
+{
+    text-align: center;
+    text-justify:distribute-all-lines;  
+    font-size: 1.2em;
+    margin: 1rem;
+    width: 75em;
+
+}
+
+/* ----------------Block------------------------------------ */
+
+.Block
+{
+    background-color: #FDF6D8;
+    border-color: black;
+    border-radius: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    
+    margin: 2rem;
+    /*margin-top: 2rem;*/
+
+    grid-template-columns: repeat(3, 30%);
+
+    display: inline-block;
+    
+    position: relative;
+    width: 28em;
+    height: 32rem;
+    /*display: flex;*/
+    list-style: none;
+}
+.Block_image
+{
+    object-fit: cover;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);*/
+    /*padding: 2rem;*/
+    
+    margin: 0.5em;
+    /*margin-top: 2rem;*/
+
+    /*grid-template-columns: repeat(3, 30%);*/
+    position: relative;
+
+    flex-basis: 30em;
+    width: 30em;
+    height: 38rem;
+    /*display: flex;*/
+
+}
+
+.tech
+{
+    position:relative;
+    float:left;
+    width: 100em;
+
+    display: flex;
+    overflow: hidden;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+.tech img
+{
+    object-fit: cover;
+    width: 100em;
+    aspect-ratio: 2/0.75;
+    justify-self: center;
+    align-self: center;
+}
+.mask
+{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100em;
+    aspect-ratio: 2/0.75;
+    padding-left: 5em;
+    padding-top: 5rem;
+    padding-right: 60em;
+    /*padding-bottom: auto;*/
+
+    font-size: 1.5em;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+.mask h1{
+    font-weight: 1000;
+    font-size: 2em;
+}
+.mask button
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 1.5em;
+    font-weight: 500;
+    color:#B32305;
+    display: inline-block;
+    background-color:#FBF0D3;
+    width: 20%;
+    /*min-height: 50%;*/
+    border-radius: 30px;
+    border-color: none;
+    text-decoration: none;
+    padding: auto;
+}
+
+.Rcardbox {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    /*height: 27vw;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    gap: 2vw;
+}
+.cardbox{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    /*height: 60vh;*/
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 1100px) {
+    .cardbox{
+        flex-direction: column;
+    }
+    .Rcardbox {
+        flex-direction: column;
+    }
+    .content img{
+        
+        justify-self: center;
+        align-self: center;
+    
+        object-fit: cover;
+    
+        aspect-ratio: 3 / 2;
+        width: 90vw;
+      
+    }
+    .content{
+        flex-direction: column;
+        gap: 5vw;
+        width: 90vw;
+        margin: auto;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .content ul{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: right;
+        justify-content: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+        width: 90vw;
+        text-align: justify;
+        
+        padding: 0vw;
+    }
+    .content ul a{
+    color: #8E4A00;
+    font-weight: 600;
+    font-size: 2em;
+    }
+    .content ul p{
+        color: #7D7D7D;
+        font-size: 1em;
+        }
+    .content ul h2{
+        font-size: 1.5em;
+        }
+    .content ul Button{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        cursor: pointer;
+        color: #FFFFFF;
+        display: inline-block;
+        background-color: #B32305;
+        max-width: 200%;
+        min-height: 50%;
+        border-radius: 30px;
+        border-color: none;
+        text-decoration: none;
+    }
+    .intro-container
+    {      flex-direction: column;  
+    }
+    .tech{display: none;}
+    
+
+    .Person td
+    {
+        padding: 0em; 
+        vertical-align: top;
+        width: 99vw;
+        
+    }
+
+    .Person img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        object-fit: cover;
+        width: 8em; 
+        height: 8em;
+        border-radius: 100px;
+        border-color: none;
+    }
+    .Person p{
+        text-align: justify;
+    }
+    .Person
+    {
+        text-align: center;
+        text-justify:distribute-all-lines;  
+        font-size: 1.2em;
+        margin: 0rem;
+        width: 300vw;
+        margin-left:0em;
+        margin-right:0em;
+    }
+}
