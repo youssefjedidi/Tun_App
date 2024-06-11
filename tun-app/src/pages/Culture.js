@@ -128,9 +128,7 @@ return (
       The official language of Tunisia is Arabic, which is also the language of Quraan, islam is the dominant religion in the country. 
       According to the 2014 constitution, Tunisia is a free and democratic republic that recognizes Islam as its state religion, but also guarantees freedom of conscience and belief for all citizens.
       Tunisia also has a distinguished literary tradition that spans from ancient times to the present day, producing renowned poets, writers, scholars and thinkers who have influenced Arabic literature and culture as well as world literature."
-      image="\Tun_App\images\Tunisia\Ez_Zitouna-mosque.jpg"
-      link="https://en.wikipedia.org/wiki/Culture_of_Tunisia#Religion"
-      />
+      image="\Tun_App\images\Tunisia\Ez_Zitouna-mosque.jpg"/>
 
     <SlidePL
         
@@ -139,9 +137,7 @@ return (
          The country has produced many notable writers and poets who have contributed to the Arabic literary canon.
          Tunisian literature often reflects the country’s history and cultural heritage, with themes such as identity, nationalism, and social justice being common. 
          In addition to Arabic, French is also widely used in Tunisian literature due to the country’s history as a French protectorate."
-        image="\Tun_App\images\Tunisia\CuktureBab.jpg"
-        link="https://en.wikipedia.org/wiki/Tunisian_literature"
-        />
+        image="\Tun_App\images\Tunisia\CuktureBab.jpg" />
 
     <h1 className='title'> Food and culinary traditions: </h1>
 

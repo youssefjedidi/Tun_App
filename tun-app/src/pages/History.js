@@ -66,41 +66,33 @@ return (
         title="Carthage (814 BC)" 
         subtitle='"The rise of Carthage"' 
         description="Carthage was an ancient city located in modern-day Tunis. It was founded by Phoenician colonists in the 9th century BC and became a major trading and cultural center in the Mediterranean world. Carthage was conquered by the Romans in the 2nd century BC and became an important Roman city. Today, the ruins of Carthage are a major tourist attraction and a testament to the city's rich history."
-        image="\Tun_App\images\Tunisia\Hcartage.jpeg" 
-        link="https://en.wikipedia.org/wiki/Ancient_Carthage"
-        />
+        image="\Tun_App\images\Tunisia\Hcartage.jpeg" />
     <SlidePR 
       title="Ez-zitouna University (737 CE)" 
       subtitle='"The oldest university in THE WORLD"' 
       description="Ez-zitouna University, also known as the University of Ez-Zitouna, is said to be the oldest university or madrasa in the world in continuous operation.
       It was founded in the 8th century CE and has played an important role in Tunisian education and intellectual life. The university is known for its Islamic studies programs and has educated many prominent scholars and religious leaders over the years.
       Despite the religion's dominance, in Madrasas students could learn about science, philosophy, mathematics, art, and many other subjects."
-      image="\Tun_App\images\Tunisia\Hzitouna.jpg"
-      link="https://en.wikipedia.org/wiki/University_of_Ez-Zitouna"
-      />
+      image="\Tun_App\images\Tunisia\Hzitouna.jpg"/>
 
     <SlidePL
         title="Ottoman empire (1534)" 
         subtitle='"Tunisia under Ottoman rule."' 
         description="In 1534, Tunisia became a province of the Ottoman Empire, which was a major political and cultural force in the region at the time. 
         The Ottoman period had a significant impact on Tunisian culture and society, and many elements of Ottoman culture and influence can still be seen in Tunisia today."
-        image="\Tun_App\images\Tunisia\mourad_bey.jpg"
-        link="https://en.wikipedia.org/wiki/Ottoman_Tunisia"
-         />
+        image="\Tun_App\images\Tunisia\mourad_bey.jpg" />
     <SlidePR 
       title="Independence (1956)" 
       subtitle="''Tunisia's journey to independence''"
       description="Tunisia gained independence from France in 1956, after over 70 years of colonial rule. Independence was followed by a period of political and economic development, as the country worked to establish itself as a sovereign nation."
-      image="/Tun_App/images/Tunisia/Hindependence.jpg"
-      link="https://en.wikipedia.org/wiki/Tunisian_independence"/>
+      image="/Tun_App/images/Tunisia/Hindependence.jpg"/>
 
     <SlidePL
         title="Revolution (2011)" 
         subtitle='"Overthrowing the old regime"' 
         description="The Tunisian Revolution, also known as the Jasmine Revolution, was a period of political unrest and protests in Tunisia that began in 2010 and continued into 2011. The protests ultimately led to the overthrow of President Zine El Abidine Ben Ali and the establishment of a new, democratic government. The Revolution had a major impact on Tunisian politics and society, and is considered a major turning point in the country's history."
-        image="\Tun_App\images\Tunisia\Hrevolution.png" 
-        link="https://en.wikipedia.org/wiki/Tunisian_Revolution"
-        />
+        image="\Tun_App\images\Tunisia\Hrevolution.png" />
+
         
     <h1 className='title'> Important historical figures: </h1>
 

@@ -50,6 +50,7 @@
   height: 55vh;
   padding: 1em;
   
+  padding-left: 1vw;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   transition: all 1s ease-in-out;
