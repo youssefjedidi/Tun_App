@@ -5,6 +5,7 @@ import SlidePL from '../components/SlidePL';
 import SlidePR from '../components/SlidePR';
 import Container from '../components/Container';
 import ImageCard from '../components/ImageCard';
+import SEO from '../components/SEO';
 import { Link } from 'react-router-dom';
 
 import './Home.css';
@@ -14,13 +15,14 @@ function HomePage() {
   document.body.style.backgroundColor = "#FBF0D3"
 return (
 <div>
+  <SEO />
   <TopBar />
   <div className='sizes'>
-    <a>website true sizes are obtimizied on landscape mode</a>
-    <img src="\Tun_App\images\Tunisia\screen_rot.png"/>
+    <p>Website is optimized for landscape mode on mobile devices</p>
+    <img src="\Tun_App\images\Tunisia\screen_rot.png" alt="Mobile orientation indicator"/>
   </div>
     <div className="image-container">
-        <img src="\Tun_App\images\Tunisia\tun7.png" alt="image" style={{ width: '100%' }} />
+        <img src="\Tun_App\images\Tunisia\tun7.png" alt="Beautiful coastal view of Tunisia" style={{ width: '100%' }} />
         <div className="text-overlay">
           <p >Tunisia is a muslim country located in North Africa, on the Mediterranean coast. It is a democratic republic with a diverse economy and a population of around 11 million people. The official language is Arabic, but French is also widely spoken.
           Tunis is the capital city, and it is known for its rich cultural heritage and vibrant atmosphere. 
@@ -51,18 +53,18 @@ return (
       Its art, literature, sports, and food reflect this diversity, showcasing a range of traditional crafts and dishes such as couscous and tajine. 
       Tunisian culture is also shaped by Islam and sports achievements of figures like Mohamed Ben Rehaiem and Ons Jabeur. 
       Come and experience the vibrant and colorful culture of Tunisia, a true reflection of its diverse cultural influences."
-      image="\Tun_App\images\Tunisia\3431090275_586a6346a3_b.jpg"
+      image="/Tun_App/images/Tunisia/3431090275_586a6346a3_b.jpg"
       link="culture"/>
     
     
     <ul style={{display:"none"}}>
         <div style={{display:"hidden", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"1vh", marginBottom:"0vh"}}>
-        <img className="Block_image" src="\Tun_App\images\Tunisia\djerba_tunisia.jpg" />
-        <img className="Block_image" src="\Tun_App\images\Tunisia\douz.jpg" />
-        <img className="Block_image" src="\Tun_App\images\Tunisia\El_Feidja_National_Park_Tunisia.png" />
+        <img className="Block_image" src="\Tun_App\images\Tunisia\djerba_tunisia.jpg" alt="Djerba Island coastline"/>
+        <img className="Block_image" src="\Tun_App\images\Tunisia\douz.jpg" alt="Douz desert landscape"/>
+        <img className="Block_image" src="\Tun_App\images\Tunisia\El_Feidja_National_Park_Tunisia.png" alt="El Feidja National Park"/>
         </div>
         <div style={{display:"hidden", justifyContent: "center", width: "90vw" , marginLeft:"auto", marginRight:"auto" , marginTop:"0vh", marginBottom:"1vh"}}>
-        <li className='Block'><a>Djerba Island, Tunisia</a>List Item 1</li>
+        <li className='Block'>Djerba Island, Tunisia</li>
         <li className='Block'>List Item 2</li>
         <li className='Block'>List Item 3</li>
         </div>
@@ -71,7 +73,7 @@ return (
 
 
     <div className="tech">
-      <img  src="\Tun_App\images\Tunisia\tourism_tunisia.jpg" />
+      <img src="\Tun_App\images\Tunisia\tourism_tunisia.jpg" alt="Tourism attractions in Tunisia"/>
       <div className='mask'>
         <h1>Tourism in Tunisia: Discover the beauty of Tunisia!</h1>
         <p>Tunisia is home to a thriving tourism industry, with stunning beaches, rich history and culture, and delicious cuisine.

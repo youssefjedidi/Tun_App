@@ -175,50 +175,30 @@ div
 }
 
 
-/*------------- content ---------------------- */
 .content{
-    display:flex;
-    /*list-style: none;
-    margin-top: 2vh;
-    margin-bottom: 2vh;*/
-    gap: 5em;
-    width: 90em;
-    margin: auto;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    display: flex;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 0 2rem;
 }
+
 .content img{
-    /*display:;
-    /*flex-direction: column;
-
-    justify-content: center;
-    align-items: center;*/
-    justify-self: center;
-    align-self: center;
-
-    /*vertical-align: middle;*/
     object-fit: cover;
-
     aspect-ratio: 3 / 2;
-    width: 40em;
-    /*max-height:50vh;*
-    
-    padding: 3vw;*/
-
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
 }
 
 .content ul{
     display: flex;
     flex-direction: column;
-
-    align-items: right;
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    width: 55em;
+    width: 50%;
     text-align: justify;
-    /*max-height:50vh;*/
-    padding: 0em;
+    padding: 0 2rem;
 }
 .content ul a{
 color: #8E4A00;
@@ -265,8 +245,8 @@ font-size: 2em;
 }
 .Person table
 {
-    /*align-items: center;
-    justify-content: center;*/
+    width: 100%;
+    border-collapse: collapse;
 }
 .Person img
 {
@@ -428,58 +408,41 @@ font-size: 2em;
     margin-bottom: 5vh;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 768px) {
     .cardbox{
         flex-direction: column;
+        align-items: center;
     }
     .Rcardbox {
         flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
     .content img{
-        
-        justify-self: center;
-        align-self: center;
-    
-        object-fit: cover;
-    
-        aspect-ratio: 3 / 2;
-        width: 90vw;
-      
+        width: 100%;
+        max-width: none;
     }
     .content{
         flex-direction: column;
-        gap: 5vw;
-        width: 90vw;
-        margin: auto;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
+        gap: 2rem;
+        margin: 3rem auto;
+        padding: 0 1rem;
     }
 
     .content ul{
-        display: flex;
-        flex-direction: column;
-    
-        align-items: right;
-        justify-content: center;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-        width: 90vw;
-        text-align: justify;
-        
-        padding: 0vw;
+        width: 100%;
+        padding: 0;
+        text-align: left;
     }
     .content ul a{
-    color: #8E4A00;
-    font-weight: 600;
-    font-size: 2em;
+        font-size: 1.5em;
     }
     .content ul p{
-        color: #7D7D7D;
         font-size: 1em;
-        }
+    }
     .content ul h2{
-        font-size: 1.5em;
-        }
+        font-size: 1.2em;
+    }
     .content ul Button{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         cursor: pointer;
@@ -493,30 +456,27 @@ font-size: 2em;
         text-decoration: none;
     }
     .intro-container
-    {      flex-direction: column;  
+    {
+        flex-direction: column;
+        padding: 1rem;
     }
-    .tech{display: none;}
-    
+    .tech{
+        display: none;
+    }
 
     .Person td
     {
-        padding: 0em; 
-        vertical-align: top;
-        width: 99vw;
-        
+        padding: 1rem;
+        width: 100%;
+        display: block;
     }
 
     .Person img
     {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-        object-fit: cover;
-        width: 8em; 
-        height: 8em;
-        border-radius: 100px;
-        border-color: none;
+        margin: 0 auto 1rem auto;
+        width: 6rem;
+        height: 6rem;
     }
     .Person p{
         text-align: justify;
@@ -524,11 +484,8 @@ font-size: 2em;
     .Person
     {
         text-align: center;
-        text-justify:distribute-all-lines;  
-        font-size: 1.2em;
-        margin: 0rem;
-        width: 300vw;
-        margin-left:0em;
-        margin-right:0em;
+        font-size: 1em;
+        margin: 0;
+        width: 100%;
     }
 }

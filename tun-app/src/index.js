@@ -3,21 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import {HashRouter , BrowserRouter} from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import reportWebVitals from './reportWebVitals';
-import HomePage from './pages/HomePage'; // import the HomePage component
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-/*root.render(
-  <React.StrictMode>
-    <HomePage />
-  </React.StrictMode>
-);*/
 
 root.render(
-  <HashRouter>
-    <App />
-  </HashRouter>,
+  <HelmetProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </HelmetProvider>,
 );
 
 // If you want to start measuring performance in your app, pass a function
